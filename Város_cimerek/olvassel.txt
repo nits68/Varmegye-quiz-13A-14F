@@ -1,0 +1,2 @@
+Név: Varos_neve_cimer.jpg
+Méret: A magassága legyen 300px, JPG formátum
