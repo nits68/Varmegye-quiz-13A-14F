@@ -1,2 +1,2 @@
 # Varmegye-quiz-13A
-Vármegye játék backen - 13A
+Vármegye játék backend - 13A
