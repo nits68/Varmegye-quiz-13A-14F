@@ -1,0 +1,15 @@
+[
+    {
+        "_id": 0,
+        "nev": "Vármegye neve",
+        "szekhely_id": 0,
+        "zaszlo_url_kicsi": "https://",
+        "zaszlo_url_nagy": "https://",
+        "orszagresz": "DT",
+        "nepesseg": 0,
+        "terulet": 0,
+        "szomszedos_varmegyek": [0, 1, 2],
+        "szomszedos_orszagok": [0, 1, 2],
+        "legnagyobb_varosok": [0, 1, 2]
+    }
+]

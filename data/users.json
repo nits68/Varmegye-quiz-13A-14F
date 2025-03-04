@@ -1,0 +1,29 @@
+[
+    {
+        "_id": 1,
+        "email": "admin@jedlik.eu",
+        "email_verified": true,
+        "auto_login": true,
+        "name": "admin",
+        "password": "$2a$10$m2UGV7VvUsy6WCDQsgDFwOxMsmRznnsp.l0MB1AvP2fSE8ko5vjli",
+        "roles": [
+            "admin",
+            "user"
+        ],
+        "mobile_number": "+36201234567",
+        "picture": "https://i.imgur.com/Vn9B6CK.jpg"
+    },
+    {
+        "_id": 2,
+        "email": "user@jedlik.eu",
+        "email_verified": true,
+        "auto_login": true,
+        "name": "user",
+        "password": "$2a$10$o7b7aX04eflUqhqGVyluP.O.k6b7I5nob52F8dT333c7ZJpZDEXeO",
+        "roles": [
+            "user"
+        ],
+        "mobile_number": "+36701234567",
+        "picture": "https://i.imgur.com/cVZTdIT.jpg"
+    }
+]
