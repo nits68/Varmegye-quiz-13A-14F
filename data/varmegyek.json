@@ -1,15 +1,54 @@
 [
-    {
-        "_id": 0,
-        "nev": "Vármegye neve",
-        "szekhely_id": 0,
-        "zaszlo_url_kicsi": "https://",
-        "zaszlo_url_nagy": "https://",
-        "orszagresz": "DT",
-        "nepesseg": 0,
-        "terulet": 0,
-        "szomszedos_varmegyek": [0, 1, 2],
-        "szomszedos_orszagok": [0, 1, 2],
-        "legnagyobb_varosok": [0, 1, 2]
-    }
+  {
+    "_id": 0,
+    "nev": "Vármegye neve",
+    "szekhely_id": 0,
+    "zaszlo_url_kicsi": "https://",
+    "zaszlo_url_nagy": "https://",
+    "orszagresz": "DT",
+    "nepesseg": 0,
+    "terulet": 0,
+    "szomszedos_varmegyek": [0, 1, 2],
+    "szomszedos_orszagok": [0, 1, 2],
+    "legnagyobb_varosok": [0, 1, 2]
+  },
+  {
+    "_id": 1,
+    "nev": "Fejér",
+    "szekhely_id": 3,
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/fejer_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/fejer_nagy.jpg",
+    "orszagresz": "DT",
+    "nepesseg": 417651,
+    "terulet": 4358,
+    "szomszedos_varmegyek": [2, 3],
+    "szomszedos_orszagok": [],
+    "legnagyobb_varosok": [1, 3]
+  },
+  {
+    "_id": 2,
+    "nev": "Nógrád",
+    "szekhely_id": 2,
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/nograd_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/nograd_nagy.jpg",
+    "orszagresz": "ÉM",
+    "nepesseg": 192573,
+    "terulet": 2544,
+    "szomszedos_varmegyek": [1, 3],
+    "szomszedos_orszagok": [2],
+    "legnagyobb_varosok": [2]
+  },
+  {
+    "_id": 3,
+    "nev": "Veszprém",
+    "szekhely_id": 4,
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/veszprem_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/veszprem_nagy.jpg",
+    "orszagresz": "DT",
+    "nepesseg": 341317,
+    "terulet": 4463,
+    "szomszedos_varmegyek": [1, 2],
+    "szomszedos_orszagok": [],
+    "legnagyobb_varosok": [4]
+  }
 ]

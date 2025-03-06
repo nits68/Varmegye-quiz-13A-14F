@@ -6,5 +6,13 @@
     "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/ausztria_nagy.jpg",
     "lakosok_szama": 8823054,
     "terulet": 83879
+  },
+  {
+    "_id": 2,
+    "nev": "Ukrajna",
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/ukrajna_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/ukrajna_nagy.jpg",
+    "lakosok_szama": 41167336,
+    "terulet": 603500
   }
 ]

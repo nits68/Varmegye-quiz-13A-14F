@@ -1,9 +1,37 @@
 [
-    {
-        "_id": 0,
-        "nev": "Vármegye neve",
-        "lakosok_szama": 0,
-        "cimer_url": "https://",
-        "terulet": 0
-    }
+  {
+    "_id": 0,
+    "nev": "Vármegye neve",
+    "lakosok_szama": 0,
+    "cimer_url": "https://",
+    "terulet": 0
+  },
+  {
+    "_id": 1,
+    "nev": "Dunaújváros",
+    "lakosok_szama": 44200,
+    "cimer_url": "https://nits68.github.io/static/quiz/dunaujvaros_cimer.jpg",
+    "terulet": 52.67
+  },
+  {
+    "_id": 2,
+    "nev": "Salgótarján",
+    "lakosok_szama": 34747,
+    "cimer_url": "https://nits68.github.io/static/quiz/salgotarjan_cimer.jpg",
+    "terulet": 100.84
+  },
+  {
+    "_id": 3,
+    "nev": "Székesfehérvár",
+    "lakosok_szama": 95545,
+    "cimer_url": "https://nits68.github.io/static/quiz/szekesfehervar_cimer.jpg",
+    "terulet": 170.89
+  },
+  {
+    "_id": 4,
+    "nev": "Veszprém",
+    "lakosok_szama": 59412,
+    "cimer_url": "https://nits68.github.io/static/quiz/veszprem_cimer.jpg",
+    "terulet": 126.93
+  }
 ]
