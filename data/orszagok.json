@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 1,
+    "nev": "Ausztria",
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/ausztria_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/ausztria_nagy.jpg",
+    "lakosok_szama": 8823054,
+    "terulet": 83879
+  },
+  {
+    "_id": 3,
+    "nev": "Románia",
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/romania_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/romania_nagy.jpg",
+    "lakosok_szama": 19060000,
+    "terulet": 238397
+  },  
+  {
+    "_id": 4,
+    "nev": "Szerbia",
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/szerbia_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/szerbia_nagy.jpg",
+    "lakosok_szama": 6623000,
+    "terulet": 77474
+  }
+]

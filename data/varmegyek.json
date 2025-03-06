@@ -1,0 +1,41 @@
+[
+    {
+        "_id": 4,
+        "nev": "Borsod-Abaúj-Zemplén",
+        "szekhely_id": 4,
+        "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/borsod-abauj-zemplen_kicsi.jpg",
+        "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/borsod-abauj-zemplen_nagy.jpg",
+        "orszagresz": "AF",
+        "nepesseg": 642447,
+        "terulet": 7247,
+        "szomszedos_varmegyek": [8, 9, 10, 12, 15],
+        "szomszedos_orszagok": [5],
+        "legnagyobb_varosok": [4, 31, 46]
+    },
+    {
+        "_id": 10,
+        "nev": "Jász-Nagykun-Szolnok",
+        "szekhely_id": 12,
+        "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/jasz-nagykun-szolnok_kicsi.jpg",
+        "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/jasz-nagykun-szolnok_nagy.jpg",
+        "orszagresz": "AF",
+        "nepesseg": 370007,
+        "terulet": 5581,
+        "szomszedos_varmegyek": [1, 3, 4, 5, 8, 9, 13],
+        "szomszedos_orszagok": [],
+        "legnagyobb_varosok": [12, 43]
+    },
+    {
+        "_id": 15,
+        "nev": "Szabolcs-Szatmár-Bereg",
+        "szekhely_id": 7,
+        "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/szabolcs-szatmar-bereg_kicsi.jpg",
+        "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/szabolcs-szatmar-bereg_nagy.jpg",
+        "orszagresz": "AF",
+        "nepesseg": 552964,
+        "terulet": 5933,
+        "szomszedos_varmegyek": [4, 8],
+        "szomszedos_orszagok": [3, 5, 7],
+        "legnagyobb_varosok": [7]
+    }
+]

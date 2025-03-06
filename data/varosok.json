@@ -1,0 +1,44 @@
+[
+    {
+        "_id": 4,
+        "nev": "Miskolc",
+        "lakosok_szama": 147533,
+        "cimer_url": "https://nits68.github.io/static/quiz/miskolc_cimer.jpg",
+        "terulet": 236
+    },
+    {
+        "_id": 7,
+        "nev": "Nyíregyháza",
+        "lakosok_szama": 116282,
+        "cimer_url": "https://nits68.github.io/static/quiz/nyiregyhaza_cimer.jpg",
+        "terulet": 274
+    },
+    {
+        "_id": 12,
+        "nev": "Szolnok",
+        "lakosok_szama": 66061,
+        "cimer_url": "https://nits68.github.io/static/quiz/szolnok_cimer.jpg",
+        "terulet": 187
+    },
+    {
+        "_id": 31,
+        "nev": "Ózd",
+        "lakosok_szama": 31022,
+        "cimer_url": "https://nits68.github.io/static/quiz/ozd_cimer.jpg",
+        "terulet": 91
+    },
+    {
+        "_id": 43,
+        "nev": "Jászberény",
+        "lakosok_szama": 26118,
+        "cimer_url": "https://nits68.github.io/static/quiz/jaszbereny_cimer.jpg",
+        "terulet": 221
+    },
+    {
+        "_id": 46,
+        "nev": "Kazincbarcika",
+        "lakosok_szama": 24285,
+        "cimer_url": "https://nits68.github.io/static/quiz/kazincbarcika_cimer.jpg",
+        "terulet": 36
+    }
+]
