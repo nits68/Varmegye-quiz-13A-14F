@@ -1,15 +1,41 @@
 [
     {
-        "_id": 0,
-        "nev": "Vármegye neve",
-        "szekhely_id": 0,
-        "zaszlo_url_kicsi": "https://",
-        "zaszlo_url_nagy": "https://",
-        "orszagresz": "DT",
-        "nepesseg": 0,
-        "terulet": 0,
-        "szomszedos_varmegyek": [0, 1, 2],
-        "szomszedos_orszagok": [0, 1, 2],
-        "legnagyobb_varosok": [0, 1, 2]
+        "_id": 3,
+        "nev": "Békés",
+        "szekhely_id": 17,
+        "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/bekes_kicsi.jpg",
+        "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/bekes_nagy.jpg",
+        "orszagresz": "DA",
+        "nepesseg": 315222,
+        "terulet": 5631.05,
+        "szomszedos_varmegyek": [8, 10, 5],
+        "szomszedos_orszagok": [3],
+        "legnagyobb_varosok": [17, 39, 44]
+    },
+    {
+        "_id": 9,
+        "nev": "Heves",
+        "szekhely_id": 19,
+        "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/heves_kicsi.jpg",
+        "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/heves_nagy.jpg",
+        "orszagresz": "ÉM",
+        "nepesseg": 285892,
+        "terulet": 3637.25,
+        "szomszedos_varmegyek": [13, 12, 4, 10],
+        "szomszedos_orszagok": [],
+        "legnagyobb_varosok": [19, 40]
+    },
+    {
+        "_id": 17,
+        "nev": "Vas",
+        "szekhely_id": 10,
+        "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/vas_kicsi.jpg",
+        "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/vas_nagy.jpg",
+        "orszagresz": "NyDT",
+        "nepesseg": 249513,
+        "terulet": 3336.20,
+        "szomszedos_varmegyek": [7, 18, 19],
+        "szomszedos_orszagok": [1, 6],
+        "legnagyobb_varosok": [10]
     }
 ]
