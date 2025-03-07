@@ -10,63 +10,63 @@
         "_id": 3,
         "nev": "Szeged",
         "lakosok_szama": 158 797,
-        "cimer_url": "https://",
+        "cimer_url": "https://nits68.github.io/static/quiz/szeged_cimer.jpg",
         "terulet": 	158 797	
     }
         {
         "_id": 23,
         "nev": "Hódmezővásárhely",
         "lakosok_szama": 41 634,
-        "cimer_url": "https://",
+        "cimer_url": "https://nits68.github.io/static/quiz/hodmezovasarhely_cimer.jpg",
         "terulet": 	41 634	
     }
             {
         "_id": 45,
-        "nev": "Hódmezővásárhely",
+        "nev": "Szentes",
         "lakosok_szama": 25 162,
-        "cimer_url": "https://",
+        "cimer_url": "https://nits68.github.io/static/quiz/szentes_cimer.jpg",
         "terulet": 	25 162	
     }
                 {
         "_id": 13,
         "nev": "Tatabánya",
         "lakosok_szama": 65 830,
-        "cimer_url": "https://",
+        "cimer_url": "https://nits68.github.io/static/quiz/tatabanya_cimer.jpg",
         "terulet": 	65 830	
     }
                     {
         "_id": 37,
         "nev": "Esztergom",
         "lakosok_szama": 28 693,
-        "cimer_url": "https://",
+        "cimer_url": "https://nits68.github.io/static/quiz/esztergom_cimer.jpg",
         "terulet": 	28 693	
     }
                         {
         "_id": 50,
         "nev": "Tata",
         "lakosok_szama": 23 456,
-        "cimer_url": "https://",
+        "cimer_url": "https://nits68.github.io/static/quiz/tata_cimer.jpg",
         "terulet": 	23 456	
     }
                             {
         "_id": 32,
         "nev": "Szekszárd",
         "lakosok_szama": 29 889,
-        "cimer_url": "https://",
+        "cimer_url": "https://nits68.github.io/static/quiz/szekszard_cimer.jpg",
         "terulet": 	29 889	
     }
                                 {
         "_id": 18,
         "nev": "Zalaegerszeg",
         "lakosok_szama": 54 428	,
-        "cimer_url": "https://",
+        "cimer_url": "https://nits68.github.io/static/quiz/zalaegerszeg_cimer.jpg",
         "terulet": 	54 428		
                                 }
                                     {
         "_id": 21,
         "nev": "Nagykanizsa",
         "lakosok_szama": 43 228	,
-        "cimer_url": "https://",
+        "cimer_url": "https://nits68.github.io/static/quiz/nagykanizsa_cimer.jpg",
         "terulet": 	43 228		
     }
 ]
