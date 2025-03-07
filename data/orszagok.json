@@ -8,6 +8,14 @@
     "terulet": 83879
   },
   {
+    "_id": 2,
+    "nev": "Horvátország",
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/horvatorszag_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/horvatorszag_nagy.jpg",
+    "lakosok_szama": 4087843,
+    "terulet": 56594
+  },
+  {
     "_id": 3,
     "nev": "Románia",
     "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/romania_kicsi.jpg",
@@ -23,6 +31,15 @@
     "lakosok_szama": 6623000,
     "terulet": 77474
   },
+  {
+    "_id": 5,
+    "nev": "Szlovákia",
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/szlovakia_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/szlovakia_kicsi.jpg",
+    "lakosok_szama": 5449270,
+    "terulet": 49036
+  },
+  {
     "_id": 6,
     "nev": "Szlovénia",
     "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/szlovenia_kicsi.jpg",
@@ -37,13 +54,5 @@
     "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/ukrajna_nagy.jpg",
     "lakosok_szama": 41167336,
     "terulet": 603500
-  },
-  {
-    "_id": 5,
-    "nev": "Szlovákia",
-    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/szlovakia_kicsi.jpg",
-    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/szlovakia_kicsi.jpg",
-    "lakosok_szama": 5449270,
-    "terulet": 49036
   }
 ]

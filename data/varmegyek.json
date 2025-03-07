@@ -84,8 +84,8 @@
         "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/csongrad-csanad_kicsi.jpg",
         "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/csongrad-csanad_nagy.jpg",
         "orszagresz": "DA",
-        "nepesseg": 391 184,
-        "terulet": 4261,74,
+        "nepesseg": 391.184,
+        "terulet": 4261.74,
         "szomszedos_varmegyek": [1, 10.3],
         "szomszedos_orszagok": [3,4],
         "legnagyobb_varosok": [3,23,45]
@@ -97,8 +97,8 @@
         "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/komarom-esztergom_kicsi.jpg",
         "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/komarom-esztergom_nagy.jpg",
         "orszagresz": "KDT",
-        "nepesseg": 300 631,
-        "terulet": 2265,08,
+        "nepesseg": 300.631,
+        "terulet": 2265.08,
         "szomszedos_varmegyek": [7, 18, 6, 13],
         "szomszedos_orszagok": [5],
         "legnagyobb_varosok": [13,37,50]
@@ -110,8 +110,8 @@
         "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/zala_kicsi.jpg",
         "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/zala_nagy.jpg",
         "orszagresz": "NyDT",
-        "nepesseg": 260 800,
-        "terulet": 3784,11,
+        "nepesseg": 260.800,
+        "terulet": 3784.11,
         "szomszedos_varmegyek": [17,18,14],
         "szomszedos_orszagok": [2,6],
         "legnagyobb_varosok": [18,21]
@@ -123,8 +123,8 @@
         "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/tolna_kicsi.jpg",
         "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/tolna_nagy.jpg",
         "orszagresz": "DDT",
-        "nepesseg": 207 931,
-        "terulet": 3703,31,
+        "nepesseg": 207.931,
+        "terulet": 3703.31,
         "szomszedos_varmegyek": [2,14,6,1],
         "szomszedos_orszagok": [],
         "legnagyobb_varosok": [32]
@@ -286,7 +286,7 @@
     "legnagyobb_varosok": [1, 3]
   },
   {
-    "_id": 2,
+    "_id": 12,
     "nev": "Nógrád",
     "szekhely_id": 2,
     "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/nograd_kicsi.jpg",
@@ -310,5 +310,44 @@
     "szomszedos_varmegyek": [1, 2],
     "szomszedos_orszagok": [],
     "legnagyobb_varosok": [4]
+  },
+  { 
+    "_id": 2,
+    "nev": "Baranya",
+    "szekhely_id": 5,
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/baranya_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/baranya_nagy.jpg",
+    "orszagresz": "DDT",
+    "nepesseg": 354022,
+    "terulet": 4308.69,
+    "szomszedos_varmegyek": [1, 14, 16],
+    "szomszedos_orszagok": [20],
+    "legnagyobb_varosok": [5]
+  },
+  {
+    "_id": 8,
+    "nev": "Hajdú-Bihar",
+    "szekhely_id": 2,
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/hajdu-bihar_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/hajdu-bihar_nagy.jpg",
+    "orszagresz": "AF",
+    "nepesseg": 519141,
+    "terulet": 6210.56,
+    "szomszedos_varmegyek": [3, 10, 9, 4, 15],
+    "szomszedos_orszagok": [3],
+    "legnagyobb_varosok": [2, 33]
+  },
+  {
+    "_id": 14,
+    "nev": "Somogy",
+    "szekhely_id": 15,
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/somogy_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/somogy_nagy.jpg",
+    "orszagresz": "DDT",
+    "nepesseg": 293470,
+    "terulet": 6065.07,
+    "szomszedos_varmegyek": [2 ,6, 16, 18, 19],
+    "szomszedos_orszagok": [2],
+    "legnagyobb_varosok": [15, 48]
   }
 ]
