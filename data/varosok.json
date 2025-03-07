@@ -1,111 +1,109 @@
 [
-
-    {
-        "_id": 17,
-        "nev": "Békéscsaba",
-        "lakosok_szama": 54460,
-        "cimer_url": "https://nits68.github.io/static/quiz/bekescsaba_cimer.jpg",
-        "terulet": 193.93
-    },
-    {
-        "_id": 39,
-        "nev": "Gyula",
-        "lakosok_szama": 27834,
-        "cimer_url": "https://nits68.github.io/static/quiz/gyula_cimer.jpg",
-        "terulet": 255.8
-    },
-    {
-        "_id": 44,
-        "nev": "Orosháza",
-        "lakosok_szama": 25206,
-        "cimer_url": "https://nits68.github.io/static/quiz/oroshaza_cimer.jpg",
-        "terulet": 202.22
-    },
-    {
-        "_id": 19,
-        "nev": "Eger",
-        "lakosok_szama": 49499,
-        "cimer_url": "https://nits68.github.io/static/quiz/eger_cimer.jpg",
-        "terulet": 92.24
-    },
-    {
-        "_id": 40,
-        "nev": "Gyöngyös",
-        "lakosok_szama": 27645,
-        "cimer_url": "https://nits68.github.io/static/quiz/gyongyos_cimer.jpg",
-        "terulet": 55.31
-    },
-    {
-        "_id": 10,
-        "nev": "Szombathely",
-        "lakosok_szama": 77757,
-        "cimer_url": "https://nits68.github.io/static/quiz/szombathely_cimer.jpg",
-        "terulet": 97.5
-    }
-    {
-        "_id": 3,
-        "nev": "Szeged",
-        "lakosok_szama": 158797,
-        "cimer_url": "https://nits68.github.io/static/quiz/szeged_cimer.jpg",
-        "terulet": 	158.797	
-    }
-        {
-        "_id": 23,
-        "nev": "Hódmezővásárhely",
-        "lakosok_szama": 41634,
-        "cimer_url": "https://nits68.github.io/static/quiz/hodmezovasarhely_cimer.jpg",
-        "terulet": 	41.634	
-    }
-            {
-        "_id": 45,
-        "nev": "Szentes",
-        "lakosok_szama": 25162,
-        "cimer_url": "https://nits68.github.io/static/quiz/szentes_cimer.jpg",
-        "terulet": 	25.162	
-    }
-                {
-        "_id": 13,
-        "nev": "Tatabánya",
-        "lakosok_szama": 65830,
-        "cimer_url": "https://nits68.github.io/static/quiz/tatabanya_cimer.jpg",
-        "terulet": 	65.830	
-    }
-                    {
-        "_id": 37,
-        "nev": "Esztergom",
-        "lakosok_szama": 28693,
-        "cimer_url": "https://nits68.github.io/static/quiz/esztergom_cimer.jpg",
-        "terulet": 	28.693	
-    }
-                        {
-        "_id": 50,
-        "nev": "Tata",
-        "lakosok_szama": 23456,
-        "cimer_url": "https://nits68.github.io/static/quiz/tata_cimer.jpg",
-        "terulet": 	23.456	
-    }
-                            {
-        "_id": 32,
-        "nev": "Szekszárd",
-        "lakosok_szama": 29889,
-        "cimer_url": "https://nits68.github.io/static/quiz/szekszard_cimer.jpg",
-        "terulet": 	29.889	
-    }
-                                {
-        "_id": 18,
-        "nev": "Zalaegerszeg",
-        "lakosok_szama": 54428	,
-        "cimer_url": "https://nits68.github.io/static/quiz/zalaegerszeg_cimer.jpg",
-        "terulet": 	54.428		
-                                }
-                                    {
-        "_id": 21,
-        "nev": "Nagykanizsa",
-        "lakosok_szama": 43228	,
-        "cimer_url": "https://nits68.github.io/static/quiz/nagykanizsa_cimer.jpg",
-        "terulet": 	43.228		
-    }
-
+  {
+    "_id": 17,
+    "nev": "Békéscsaba",
+    "lakosok_szama": 54460,
+    "cimer_url": "https://nits68.github.io/static/quiz/bekescsaba_cimer.jpg",
+    "terulet": 193.93
+  },
+  {
+    "_id": 39,
+    "nev": "Gyula",
+    "lakosok_szama": 27834,
+    "cimer_url": "https://nits68.github.io/static/quiz/gyula_cimer.jpg",
+    "terulet": 255.8
+  },
+  {
+    "_id": 44,
+    "nev": "Orosháza",
+    "lakosok_szama": 25206,
+    "cimer_url": "https://nits68.github.io/static/quiz/oroshaza_cimer.jpg",
+    "terulet": 202.22
+  },
+  {
+    "_id": 19,
+    "nev": "Eger",
+    "lakosok_szama": 49499,
+    "cimer_url": "https://nits68.github.io/static/quiz/eger_cimer.jpg",
+    "terulet": 92.24
+  },
+  {
+    "_id": 40,
+    "nev": "Gyöngyös",
+    "lakosok_szama": 27645,
+    "cimer_url": "https://nits68.github.io/static/quiz/gyongyos_cimer.jpg",
+    "terulet": 55.31
+  },
+  {
+    "_id": 10,
+    "nev": "Szombathely",
+    "lakosok_szama": 77757,
+    "cimer_url": "https://nits68.github.io/static/quiz/szombathely_cimer.jpg",
+    "terulet": 97.5
+  },
+  {
+    "_id": 3,
+    "nev": "Szeged",
+    "lakosok_szama": 158797,
+    "cimer_url": "https://nits68.github.io/static/quiz/szeged_cimer.jpg",
+    "terulet": 158.797
+  },
+  {
+    "_id": 23,
+    "nev": "Hódmezővásárhely",
+    "lakosok_szama": 41634,
+    "cimer_url": "https://nits68.github.io/static/quiz/hodmezovasarhely_cimer.jpg",
+    "terulet": 41.634
+  },
+  {
+    "_id": 45,
+    "nev": "Szentes",
+    "lakosok_szama": 25162,
+    "cimer_url": "https://nits68.github.io/static/quiz/szentes_cimer.jpg",
+    "terulet": 25.162
+  },
+  {
+    "_id": 13,
+    "nev": "Tatabánya",
+    "lakosok_szama": 65830,
+    "cimer_url": "https://nits68.github.io/static/quiz/tatabanya_cimer.jpg",
+    "terulet": 65.83
+  },
+  {
+    "_id": 37,
+    "nev": "Esztergom",
+    "lakosok_szama": 28693,
+    "cimer_url": "https://nits68.github.io/static/quiz/esztergom_cimer.jpg",
+    "terulet": 28.693
+  },
+  {
+    "_id": 50,
+    "nev": "Tata",
+    "lakosok_szama": 23456,
+    "cimer_url": "https://nits68.github.io/static/quiz/tata_cimer.jpg",
+    "terulet": 23.456
+  },
+  {
+    "_id": 32,
+    "nev": "Szekszárd",
+    "lakosok_szama": 29889,
+    "cimer_url": "https://nits68.github.io/static/quiz/szekszard_cimer.jpg",
+    "terulet": 29.889
+  },
+  {
+    "_id": 18,
+    "nev": "Zalaegerszeg",
+    "lakosok_szama": 54428,
+    "cimer_url": "https://nits68.github.io/static/quiz/zalaegerszeg_cimer.jpg",
+    "terulet": 54.428
+  },
+  {
+    "_id": 21,
+    "nev": "Nagykanizsa",
+    "lakosok_szama": 43228,
+    "cimer_url": "https://nits68.github.io/static/quiz/nagykanizsa_cimer.jpg",
+    "terulet": 43.228
+  },
   {
     "_id": 0,
     "nev": "Vármegye neve",
