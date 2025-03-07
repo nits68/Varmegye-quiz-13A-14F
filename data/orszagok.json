@@ -7,4 +7,12 @@
     "lakosok_szama": 0,
     "terulet": 0
   }
+    {
+    "_id": 5,
+    "nev": "Szlovákia",
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/szlovakia_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/szlovakia_kicsi.jpg",
+    "lakosok_szama": 5 449 270,
+    "terulet": 49 036
+  }
 ]
