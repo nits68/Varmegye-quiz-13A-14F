@@ -1,11 +1,19 @@
 [
   {
-    "_id": 0,
-    "nev": "Magyarország",
-    "zaszlo_url_kicsi": "https://",
-    "zaszlo_url_nagy": "https://",
-    "lakosok_szama": 0,
-    "terulet": 0
+    "_id": 1,
+    "nev": "Austztria",
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/ausztria_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/ausztria_nagy.jpg",
+    "lakosok_szama": 8823054,
+    "terulet": 83879
+  },
+  {
+    "_id": 2,
+    "nev": "Ukrajna",
+    "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/ukrajna_kicsi.jpg",
+    "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/ukrajna_nagy.jpg",
+    "lakosok_szama": 41167336,
+    "terulet": 603500
   }
     {
     "_id": 5,
