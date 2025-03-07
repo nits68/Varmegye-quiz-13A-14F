@@ -1,11 +1,46 @@
 [
 
     {
-        "_id": 0,
-        "nev": "Vármegye neve",
-        "lakosok_szama": 0,
-        "cimer_url": "https://",
-        "terulet": 0
+        "_id": 17,
+        "nev": "Békéscsaba",
+        "lakosok_szama": 54460,
+        "cimer_url": "https://nits68.github.io/static/quiz/bekescsaba_cimer.jpg",
+        "terulet": 193.93
+    },
+    {
+        "_id": 39,
+        "nev": "Gyula",
+        "lakosok_szama": 27834,
+        "cimer_url": "https://nits68.github.io/static/quiz/gyula_cimer.jpg",
+        "terulet": 255.8
+    },
+    {
+        "_id": 44,
+        "nev": "Orosháza",
+        "lakosok_szama": 25206,
+        "cimer_url": "https://nits68.github.io/static/quiz/oroshaza_cimer.jpg",
+        "terulet": 202.22
+    },
+    {
+        "_id": 19,
+        "nev": "Eger",
+        "lakosok_szama": 49499,
+        "cimer_url": "https://nits68.github.io/static/quiz/eger_cimer.jpg",
+        "terulet": 92.24
+    },
+    {
+        "_id": 40,
+        "nev": "Gyöngyös",
+        "lakosok_szama": 27645,
+        "cimer_url": "https://nits68.github.io/static/quiz/gyongyos_cimer.jpg",
+        "terulet": 55.31
+    },
+    {
+        "_id": 10,
+        "nev": "Szombathely",
+        "lakosok_szama": 77757,
+        "cimer_url": "https://nits68.github.io/static/quiz/szombathely_cimer.jpg",
+        "terulet": 97.5
     }
     {
         "_id": 3,
