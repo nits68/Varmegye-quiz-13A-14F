@@ -278,5 +278,34 @@
     "lakosok_szama": 59412,
     "cimer_url": "https://nits68.github.io/static/quiz/veszprem_cimer.jpg",
     "terulet": 126.93
+  },
+  {
+    "_id": 5,
+    "nev": "Pécs",
+    "lakosok_szama": 139099,
+    "cimer_url": "https://nits68.github.io/static/quiz/pecs_cimer.jpg",
+    "terulet": 113.3
+  },
+  {
+    "_id": 33,
+    "nev": "Hajdúböszörmény",
+    "lakosok_szama": 29374,
+    "cimer_url": "https://nits68.github.io/static/quiz/hajduboszormeny_cimer.jpg",
+    "terulet": 290
+  },
+  {
+    "_id": 15,
+    "nev": "Kaposvár",
+    "lakosok_szama": 59397,
+    "cimer_url": "https://nits68.github.io/static/quiz/kaposvar_cimer.jpg",
+    "terulet": 113.3
+  },
+  {
+    "_id": 48,
+    "nev": "Siófok",
+    "lakosok_szama": 23601,
+    "cimer_url": "https://nits68.github.io/static/quiz/siofok_cimer.jpg",
+    "terulet": 58.66
   }
+
 ]
