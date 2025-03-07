@@ -16,7 +16,7 @@
     "terulet": 20273
   },
   {
-    "_id": 2,
+    "_id": 7,
     "nev": "Ukrajna",
     "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/ukrajna_kicsi.jpg",
     "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/ukrajna_nagy.jpg",
@@ -28,7 +28,7 @@
     "nev": "Szlovákia",
     "zaszlo_url_kicsi": "https://nits68.github.io/static/quiz/szlovakia_kicsi.jpg",
     "zaszlo_url_nagy": "https://nits68.github.io/static/quiz/szlovakia_kicsi.jpg",
-    "lakosok_szama": 5 449 270,
-    "terulet": 49 036
+    "lakosok_szama": 5449270,
+    "terulet": 49036
   }
 ]
