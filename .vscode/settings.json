@@ -1,11 +1,8 @@
 {
-    "eslint.validate": [
-        "javascript",
-        "typescript"
-    ],
+    "eslint.validate": ["javascript", "typescript"],
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.formatOnSave": true,
     "[javascript]": {
@@ -32,5 +29,5 @@
         "**/node_modules": true,
         "**/*.js.map": true,
         "**/*.npmrc": true
-    },
+    }
 }

@@ -1,7 +1,7 @@
+import { ICountry } from "#country.interface.js";
+import { countryModel } from "#country.model.js";
+import { IController } from "#interfaces.js";
 import { Request, Response, Router } from "express";
-import { IController } from "./interfaces";
-import { countryModel } from "./country.model";
-import { ICountry } from "./country.interface";
 
 export class countryController implements IController {
     public router = Router();
@@ -15,14 +15,13 @@ export class countryController implements IController {
     private getAllCountries = async (req: Request, res: Response) => {
         try {
             const data: ICountry[] = await this.countries.find();
-            if (data) {
-                res.send(data);
+            res.send(data);
+        } catch (error: unknown) {
+            if (error instanceof Error) {
+                res.status(400).send({ message: error.message });
             } else {
-                res.status(404).send({ message: "Countries not found" });
+                res.status(400).send({ message: "An unknown error occurred!" });
             }
-            
-        } catch (error) {
-            res.status(400).send({ message: error.message });
         }
     };
 
@@ -35,8 +34,12 @@ export class countryController implements IController {
             } else {
                 res.status(404).send({ message: "Country not found" });
             }
-        } catch (error) {
-            res.status(400).send({ message: error.message });
+        } catch (error: unknown) {
+            if (error instanceof Error) {
+                res.status(400).send({ message: error.message });
+            } else {
+                res.status(400).send({ message: "An unknown error occurred!" });
+            }
         }
     };
 }

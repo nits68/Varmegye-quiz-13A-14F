@@ -1,34 +1,33 @@
-import { ICountry } from "country.interface";
-
-import { Schema, model } from "mongoose";
+import { ICountry } from "#country.interface.js";
+import { model, Schema } from "mongoose";
 
 const countrySchema = new Schema<ICountry>(
     {
         _id: Number,
-        name: {
-            type: String,
+        area: {
             required: true,
-            unique: true,
-            maxLength: 40,
-        },
-        flag_url_small: {
-            type: String,
-            required: true
+            type: Number,
         },
         flag_url_big: {
+            required: true,
             type: String,
-            required: true
+        },
+        flag_url_small: {
+            required: true,
+            type: String,
+        },
+        name: {
+            maxLength: 40,
+            required: true,
+            type: String,
+            unique: true,
         },
         population: {
-            type: Number,
             required: true,
-        },
-        area: {
             type: Number,
-            required: true,
         },
     },
-    { versionKey: false, id: false, toJSON: { virtuals: true }, toObject: { virtuals: true } },
+    { id: false, toJSON: { virtuals: true }, toObject: { virtuals: true }, versionKey: false },
 );
 
 // Mongoose also supports populating virtuals.

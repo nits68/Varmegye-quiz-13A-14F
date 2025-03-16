@@ -1,6 +1,8 @@
-node_modules
-coverage
-dist
+/node_modules
+/coverage
+/dist
+/data/*.bat  
 package-lock.json
-data/*.bat  
 .env
+.env.*
+!.env.example

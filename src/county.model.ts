@@ -1,62 +1,61 @@
-import { ICounty } from "county.interface";
-
-import { Schema, model } from "mongoose";
+import { ICounty } from "#county.interface.js";
+import { model, Schema } from "mongoose";
 
 const countySchema = new Schema<ICounty>(
     {
         _id: Number,
-        name: {
-            type: String,
+        area: {
             required: true,
-            unique: true,
-            maxLength: 40,
-        },
-        seat_id: {
             type: Number,
-            required: true,
-            ref: "cityModelID",
-        },
-        flag_url_small: {
-            type: String,
-            required: true,
-        },
-        flag_url_big: {
-            type: String,
-            required: true,
         },
         country_part: {
+            required: true,
             type: String,
-            required: true,
         },
-        region: {
+        flag_url_big: {
+            required: true,
             type: String,
-            required: true,
         },
-        population: {
-            type: Number,
+        flag_url_small: {
             required: true,
-        },
-        area: {
-            type: Number,
-            required: true,
-        },
-        neighboring_counties: {
-            type: [Number],
-            required: true,
-            ref: "countyModelID",
-        },
-        neighboring_countries: {
-            type: [Number],
-            required: true,
-            ref: "countryModelID",
+            type: String,
         },
         largest_cities: {
-            type: [Number],
-            required: true,
             ref: "cityModelID",
+            required: true,
+            type: [Number],
+        },
+        name: {
+            maxLength: 40,
+            required: true,
+            type: String,
+            unique: true,
+        },
+        neighboring_counties: {
+            ref: "countyModelID",
+            required: true,
+            type: [Number],
+        },
+        neighboring_countries: {
+            ref: "countryModelID",
+            required: true,
+            type: [Number],
+        },
+        population: {
+            required: true,
+            type: Number,
+        },
+        region: {
+            required: true,
+            type: String,
+        },
+        seat_id: {
+            ref: "cityModelID",
+            required: true,
+            type: Number,
         },
     },
-    { versionKey: false, id: false, toJSON: { virtuals: true }, toObject: { virtuals: true } },
+    { id: false, toJSON: { virtuals: true }, toObject: { virtuals: true }, versionKey: false },
 );
 
 // Mongoose also supports populating virtuals.

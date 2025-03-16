@@ -1,7 +1,7 @@
+import { ICounty } from "#county.interface.js";
+import { countyModel } from "#county.model.js";
+import { IController } from "#interfaces.js";
 import { Request, Response, Router } from "express";
-import { IController } from "./interfaces";
-import { countyModel } from "./county.model";
-import { ICounty } from "./county.interface";
 
 export class countyController implements IController {
     public router = Router();
@@ -15,27 +15,31 @@ export class countyController implements IController {
     private getAllCounties = async (req: Request, res: Response) => {
         try {
             const data: ICounty[] = await this.counties.find();
-            if (data) {
-                res.send(data);
+            res.send(data);
+        } catch (error: unknown) {
+            if (error instanceof Error) {
+                res.status(400).send({ message: error.message });
             } else {
-                res.status(404).send({ message: "Counties not found" });
+                res.status(400).send({ message: "An unknown error occurred!" });
             }
-        } catch (error) {
-            res.status(400).send({ message: error.message });
         }
     };
 
     private getCountyById = async (req: Request, res: Response) => {
-            try {
-                const id = req.params.id;
-                const document = await this.counties.findById(id);
-                if (document) {
-                    res.send(document);
-                } else {
-                    res.status(404).send({ message: "County not found" });
-                }
-            } catch (error) {
-                res.status(400).send({ message: error.message });
+        try {
+            const id = req.params.id;
+            const document: ICounty | null = await this.counties.findById(id);
+            if (document) {
+                res.send(document);
+            } else {
+                res.status(404).send({ message: "County not found" });
             }
-        };
+        } catch (error: unknown) {
+            if (error instanceof Error) {
+                res.status(400).send({ message: error.message });
+            } else {
+                res.status(400).send({ message: "An unknown error occurred!" });
+            }
+        }
+    };
 }
