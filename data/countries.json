@@ -1,0 +1,58 @@
+[
+  {
+    "_id": 1,
+    "name": "Ausztria",
+    "flag_url_small": "https://nits68.github.io/static/quiz/ausztria_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/ausztria_nagy.jpg",
+    "population": 8823054,
+    "area": 83879
+  },
+  {
+    "_id": 2,
+    "name": "Horvátország",
+    "flag_url_small": "https://nits68.github.io/static/quiz/horvatorszag_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/horvatorszag_nagy.jpg",
+    "population": 4087843,
+    "area": 56594
+  },
+  {
+    "_id": 3,
+    "name": "Románia",
+    "flag_url_small": "https://nits68.github.io/static/quiz/romania_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/romania_nagy.jpg",
+    "population": 19060000,
+    "area": 238397
+  },  
+  {
+    "_id": 4,
+    "name": "Szerbia",
+    "flag_url_small": "https://nits68.github.io/static/quiz/szerbia_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/szerbia_nagy.jpg",
+    "population": 6623000,
+    "area": 77474
+  },
+  {
+    "_id": 5,
+    "name": "Szlovákia",
+    "flag_url_small": "https://nits68.github.io/static/quiz/szlovakia_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/szlovakia_kicsi.jpg",
+    "population": 5449270,
+    "area": 49036
+  },
+  {
+    "_id": 6,
+    "name": "Szlovénia",
+    "flag_url_small": "https://nits68.github.io/static/quiz/szlovenia_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/szlovenia_nagy.jpg",
+    "population": 2066880,
+    "area": 20273
+  },
+  {
+    "_id": 7,
+    "name": "Ukrajna",
+    "flag_url_small": "https://nits68.github.io/static/quiz/ukrajna_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/ukrajna_nagy.jpg",
+    "population": 41167336,
+    "area": 603500
+  }
+]
