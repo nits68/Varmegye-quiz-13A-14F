@@ -1,0 +1,435 @@
+[
+  {
+    "_id": 1,
+    "name": "Bács-Kiskun (JAVÍTANI)",
+    "seat_id": 5,
+    "flag_url_small": "https://nits68.github.io/static/quiz/baranya_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/baranya_nagy.jpg",
+    "country_part": "DDT",
+    "region": "???",
+    "population": 354022,
+    "area": 4308.69,
+    "neighboring_counties": [
+      1,
+      14,
+      16
+    ],
+    "neighboring_countries": [
+      20
+    ],
+    "largest_cities": [
+      5
+    ]
+  },
+  {
+    "_id": 2,
+    "name": "Baranya",
+    "seat_id": 5,
+    "flag_url_small": "https://nits68.github.io/static/quiz/baranya_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/baranya_nagy.jpg",
+    "country_part": "DDT",
+    "region": "???",
+    "population": 354022,
+    "area": 4308.69,
+    "neighboring_counties": [
+      1,
+      14,
+      16
+    ],
+    "neighboring_countries": [
+      20
+    ],
+    "largest_cities": [
+      5
+    ]
+  },
+  {
+    "_id": 3,
+    "name": "Békés",
+    "seat_id": 17,
+    "flag_url_small": "https://nits68.github.io/static/quiz/bekes_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/bekes_nagy.jpg",
+    "country_part": "DA",
+    "region": "???",
+    "population": 315222,
+    "area": 5631.05,
+    "neighboring_counties": [
+      8,
+      10,
+      5
+    ],
+    "neighboring_countries": [
+      3
+    ],
+    "largest_cities": [
+      17,
+      39,
+      44
+    ]
+  },
+  {
+    "_id": 4,
+    "name": "Borsod-Abaúj-Zemplén",
+    "seat_id": 4,
+    "flag_url_small": "https://nits68.github.io/static/quiz/borsod-abauj-zemplen_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/borsod-abauj-zemplen_nagy.jpg",
+    "country_part": "AF",
+    "region": "???",
+    "population": 642447,
+    "area": 7247,
+    "neighboring_counties": [
+      8,
+      9,
+      10,
+      12,
+      15
+    ],
+    "neighboring_countries": [
+      5
+    ],
+    "largest_cities": [
+      4,
+      31,
+      46
+    ]
+  },
+  {
+    "_id": 5,
+    "name": "Csongraád-Csanád",
+    "seat_id": 3,
+    "flag_url_small": "https://nits68.github.io/static/quiz/csongrad-csanad_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/csongrad-csanad_nagy.jpg",
+    "country_part": "DA",
+    "region": "???",
+    "population": 391.184,
+    "area": 4261.74,
+    "neighboring_counties": [
+      1,
+      10.3
+    ],
+    "neighboring_countries": [
+      3,
+      4
+    ],
+    "largest_cities": [
+      3,
+      23,
+      45
+    ]
+  },
+  {
+    "_id": 6,
+    "name": "Fejér",
+    "seat_id": 3,
+    "flag_url_small": "https://nits68.github.io/static/quiz/fejer_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/fejer_nagy.jpg",
+    "country_part": "DT",
+    "region": "???",
+    "population": 417651,
+    "area": 4358,
+    "neighboring_counties": [
+      2,
+      3
+    ],
+    "neighboring_countries": [],
+    "largest_cities": [
+      1,
+      3
+    ]
+  },
+  {
+    "_id": 7,
+    "name": "Győr-Moson-Sopron (JAVÍTANI)",
+    "seat_id": 5,
+    "flag_url_small": "https://nits68.github.io/static/quiz/baranya_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/baranya_nagy.jpg",
+    "country_part": "DDT",
+    "region": "???",
+    "population": 354022,
+    "area": 4308.69,
+    "neighboring_counties": [
+      1,
+      14,
+      16
+    ],
+    "neighboring_countries": [
+      20
+    ],
+    "largest_cities": [
+      5
+    ]
+  },
+  {
+    "_id": 8,
+    "name": "Hajdú-Bihar",
+    "seat_id": 2,
+    "flag_url_small": "https://nits68.github.io/static/quiz/hajdu-bihar_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/hajdu-bihar_nagy.jpg",
+    "country_part": "AF",
+    "region": "???",
+    "population": 519141,
+    "area": 6210.56,
+    "neighboring_counties": [
+      3,
+      10,
+      9,
+      4,
+      15
+    ],
+    "neighboring_countries": [
+      3
+    ],
+    "largest_cities": [
+      2,
+      33
+    ]
+  },
+  {
+    "_id": 9,
+    "name": "Heves",
+    "seat_id": 19,
+    "flag_url_small": "https://nits68.github.io/static/quiz/heves_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/heves_nagy.jpg",
+    "country_part": "ÉM",
+    "region": "???",
+    "population": 285892,
+    "area": 3637.25,
+    "neighboring_counties": [
+      13,
+      12,
+      4,
+      10
+    ],
+    "neighboring_countries": [],
+    "largest_cities": [
+      19,
+      40
+    ]
+  },
+  {
+    "_id": 10,
+    "name": "Jász-Nagykun-Szolnok",
+    "seat_id": 12,
+    "flag_url_small": "https://nits68.github.io/static/quiz/jasz-nagykun-szolnok_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/jasz-nagykun-szolnok_nagy.jpg",
+    "country_part": "AF",
+    "region": "???",
+    "population": 370007,
+    "area": 5581,
+    "neighboring_counties": [
+      1,
+      3,
+      4,
+      5,
+      8,
+      9,
+      13
+    ],
+    "neighboring_countries": [],
+    "largest_cities": [
+      12,
+      43
+    ]
+  },
+  {
+    "_id": 11,
+    "name": "Komárom-Esztergom",
+    "seat_id": 13,
+    "flag_url_small": "https://nits68.github.io/static/quiz/komarom-esztergom_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/komarom-esztergom_nagy.jpg",
+    "country_part": "KDT",
+    "population": 300.631,
+    "area": 2265.08,
+    "neighboring_counties": [
+      7,
+      18,
+      6,
+      13
+    ],
+    "neighboring_countries": [
+      5
+    ],
+    "largest_cities": [
+      13,
+      37,
+      50
+    ]
+  },
+  {
+    "_id": 12,
+    "name": "Nógrád",
+    "seat_id": 2,
+    "flag_url_small": "https://nits68.github.io/static/quiz/nograd_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/nograd_nagy.jpg",
+    "country_part": "ÉM",
+    "region": "???",
+    "population": 192573,
+    "area": 2544,
+    "neighboring_counties": [
+      1,
+      3
+    ],
+    "neighboring_countries": [
+      2
+    ],
+    "largest_cities": [
+      2
+    ]
+  },
+  {
+    "_id": 13,
+    "name": "Pest (JAVÍTANI)",
+    "seat_id": 2,
+    "flag_url_small": "https://nits68.github.io/static/quiz/nograd_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/nograd_nagy.jpg",
+    "country_part": "ÉM",
+    "region": "???",
+    "population": 192573,
+    "area": 2544,
+    "neighboring_counties": [
+      1,
+      3
+    ],
+    "neighboring_countries": [
+      2
+    ],
+    "largest_cities": [
+      2
+    ]
+  },
+  {
+    "_id": 14,
+    "name": "Somogy",
+    "seat_id": 15,
+    "flag_url_small": "https://nits68.github.io/static/quiz/somogy_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/somogy_nagy.jpg",
+    "country_part": "DDT",
+    "region": "???",
+    "population": 293470,
+    "area": 6065.07,
+    "neighboring_counties": [
+      2,
+      6,
+      16,
+      18,
+      19
+    ],
+    "neighboring_countries": [
+      2
+    ],
+    "largest_cities": [
+      15,
+      48
+    ]
+  },
+  {
+    "_id": 15,
+    "name": "Szabolcs-Szatmár-Bereg",
+    "seat_id": 7,
+    "flag_url_small": "https://nits68.github.io/static/quiz/szabolcs-szatmar-bereg_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/szabolcs-szatmar-bereg_nagy.jpg",
+    "country_part": "AF",
+    "region": "???",
+    "population": 552964,
+    "area": 5933,
+    "neighboring_counties": [
+      4,
+      8
+    ],
+    "neighboring_countries": [
+      3,
+      5,
+      7
+    ],
+    "largest_cities": [
+      7
+    ]
+  },
+  {
+    "_id": 16,
+    "name": "Tolna",
+    "seat_id": 32,
+    "flag_url_small": "https://nits68.github.io/static/quiz/tolna_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/tolna_nagy.jpg",
+    "country_part": "DDT",
+    "region": "???",
+    "population": 207.931,
+    "area": 3703.31,
+    "neighboring_counties": [
+      2,
+      14,
+      6,
+      1
+    ],
+    "neighboring_countries": [],
+    "largest_cities": [
+      32
+    ]
+  },
+  {
+    "_id": 17,
+    "name": "Vas",
+    "seat_id": 10,
+    "flag_url_small": "https://nits68.github.io/static/quiz/vas_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/vas_nagy.jpg",
+    "country_part": "NyDT",
+    "region": "???",
+    "population": 249513,
+    "area": 3336.2,
+    "neighboring_counties": [
+      7,
+      18,
+      19
+    ],
+    "neighboring_countries": [
+      1,
+      6
+    ],
+    "largest_cities": [
+      10
+    ]
+  },
+  {
+    "_id": 18,
+    "name": "Veszprém",
+    "seat_id": 4,
+    "flag_url_small": "https://nits68.github.io/static/quiz/veszprem_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/veszprem_nagy.jpg",
+    "country_part": "DT",
+    "region": "???",
+    "population": 341317,
+    "area": 4463,
+    "neighboring_counties": [
+      1,
+      2
+    ],
+    "neighboring_countries": [],
+    "largest_cities": [
+      4
+    ]
+  },
+  {
+    "_id": 19,
+    "name": "Zala",
+    "seat_id": 18,
+    "flag_url_small": "https://nits68.github.io/static/quiz/zala_kicsi.jpg",
+    "flag_url_big": "https://nits68.github.io/static/quiz/zala_nagy.jpg",
+    "country_part": "NyDT",
+    "region": "???",
+    "population": 260.8,
+    "area": 3784.11,
+    "neighboring_counties": [
+      17,
+      18,
+      14
+    ],
+    "neighboring_countries": [
+      2,
+      6
+    ],
+    "largest_cities": [
+      18,
+      21
+    ]
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "_id": 3,
+    "name": "Szeged",
+    "population": 158797,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/szeged_cimer.jpg",
+    "area": 158.797
+  },
+  {
+    "_id": 4,
+    "name": "Miskolc",
+    "population": 147533,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/miskolc_cimer.jpg",
+    "area": 236
+  },
+  {
+    "_id": 5,
+    "name": "Pécs",
+    "population": 139099,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/pecs_cimer.jpg",
+    "area": 113.3
+  },
+  {
+    "_id": 6,
+    "name": "Győr (JAVÍTANI)",
+    "population": 139099,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/pecs_cimer.jpg",
+    "area": 113.3
+  },
+  {
+    "_id": 7,
+    "name": "Nyíregyháza",
+    "population": 116282,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/nyiregyhaza_cimer.jpg",
+    "area": 274
+  },
+  {
+    "_id": 8,
+    "name": "Kecskemét (JAVÍTANI)",
+    "population": 116282,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/nyiregyhaza_cimer.jpg",
+    "area": 274
+  },
+  {
+    "_id": 10,
+    "name": "Szombathely",
+    "population": 77757,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/szombathely_cimer.jpg",
+    "area": 97.5
+  },
+  {
+    "_id": 11,
+    "name": "Érd (JAVÍTANI)",
+    "population": 77757,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/szombathely_cimer.jpg",
+    "area": 97.5
+  },
+  {
+    "_id": 12,
+    "name": "Szolnok",
+    "population": 66061,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/szolnok_cimer.jpg",
+    "area": 187
+  },
+  {
+    "_id": 13,
+    "name": "Tatabánya",
+    "population": 65830,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/tatabanya_cimer.jpg",
+    "area": 65.83
+  },
+  {
+    "_id": 14,
+    "name": "Sopron (JAVÍTANI)",
+    "population": 65830,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/tatabanya_cimer.jpg",
+    "area": 65.83
+  },
+  {
+    "_id": 15,
+    "name": "Kaposvár",
+    "population": 59397,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/kaposvar_cimer.jpg",
+    "area": 113.3
+  },
+  {
+    "_id": 17,
+    "name": "Békéscsaba",
+    "population": 54460,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/bekescsaba_cimer.jpg",
+    "area": 193.93
+  },
+  {
+    "_id": 18,
+    "name": "Zalaegerszeg",
+    "population": 54428,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/zalaegerszeg_cimer.jpg",
+    "area": 54.428
+  },
+  {
+    "_id": 19,
+    "name": "Eger",
+    "population": 49499,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/eger_cimer.jpg",
+    "area": 92.24
+  },
+  {
+    "_id": 20,
+    "name": "Dunakeszi (JAVÍTANI)",
+    "population": 49499,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/eger_cimer.jpg",
+    "area": 92.24
+  },
+  {
+    "_id": 21,
+    "name": "Nagykanizsa",
+    "population": 43228,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/nagykanizsa_cimer.jpg",
+    "area": 43.228
+  },
+  {
+    "_id": 22,
+    "name": "Dunaújváros",
+    "population": 44200,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/dunaujvaros_cimer.jpg",
+    "area": 52.67
+  },
+  {
+    "_id": 23,
+    "name": "Hódmezővásárhely",
+    "population": 41634,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/hodmezovasarhely_cimer.jpg",
+    "area": 41.634
+  },
+  {
+    "_id": 24,
+    "name": "Szigetszentmiklós (JAVÍTANI)",
+    "population": 41634,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/hodmezovasarhely_cimer.jpg",
+    "area": 41.634
+  },
+  {
+    "_id": 27,
+    "name": "Mosonmagyaróvár (JAVÍTANI)",
+    "population": 41634,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/hodmezovasarhely_cimer.jpg",
+    "area": 41.634
+  },
+  {
+    "_id": 28,
+    "name": "Baja (JAVÍTANI)",
+    "population": 41634,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/hodmezovasarhely_cimer.jpg",
+    "area": 41.634
+  },
+  {
+    "_id": 30,
+    "name": "Salgótarján",
+    "population": 34747,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/salgotarjan_cimer.jpg",
+    "area": 100.84
+  },
+  {
+    "_id": 31,
+    "name": "Ózd",
+    "population": 31022,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/ozd_cimer.jpg",
+    "area": 91
+  },
+  {
+    "_id": 32,
+    "name": "Szekszárd",
+    "population": 29889,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/szekszard_cimer.jpg",
+    "area": 29.889
+  },
+  {
+    "_id": 33,
+    "name": "Hajdúböszörmény",
+    "population": 29374,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/hajduboszormeny_cimer.jpg",
+    "area": 290
+  },
+  {
+    "_id": 36,
+    "name": "Kiskunfélegyháza (JAVÍTANI)",
+    "population": 29374,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/hajduboszormeny_cimer.jpg",
+    "area": 290
+  },
+  {
+    "_id": 37,
+    "name": "Esztergom",
+    "population": 28693,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/esztergom_cimer.jpg",
+    "area": 28.693
+  },
+  {
+    "_id": 39,
+    "name": "Gyula",
+    "population": 27834,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/gyula_cimer.jpg",
+    "area": 255.8
+  },
+  {
+    "_id": 40,
+    "name": "Gyöngyös",
+    "population": 27645,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/gyongyos_cimer.jpg",
+    "area": 55.31
+  },
+  {
+    "_id": 43,
+    "name": "Jászberény",
+    "population": 26118,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/jaszbereny_cimer.jpg",
+    "area": 221
+  },
+  {
+    "_id": 44,
+    "name": "Orosháza",
+    "population": 25206,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/oroshaza_cimer.jpg",
+    "area": 202.22
+  },
+  {
+    "_id": 45,
+    "name": "Szentes",
+    "population": 25162,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/szentes_cimer.jpg",
+    "area": 25.162
+  },
+  {
+    "_id": 46,
+    "name": "Kazincbarcika",
+    "population": 24285,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/kazincbarcika_cimer.jpg",
+    "area": 36
+  },
+  {
+    "_id": 48,
+    "name": "Siófok",
+    "population": 23601,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/siofok_cimer.jpg",
+    "area": 58.66
+  },
+  {
+    "_id": 50,
+    "name": "Tata",
+    "population": 23456,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/tata_cimer.jpg",
+    "area": 23.456
+  }
+]

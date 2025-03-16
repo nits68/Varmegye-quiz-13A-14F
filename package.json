@@ -1,0 +1,46 @@
+{
+    "name": "jedlik-express-mongoose-ts-backend-template",
+    "version": "1.0.0",
+    "description": "Jedlik project template for backend exam witw 2 collections",
+    "main": "src/server.ts",
+    "repository": {
+        "private": false,
+        "type": "git",
+        "url": "https://github.com/nits68/"
+    },
+    "scripts": {
+        "start": "node ./dist/server.js",
+        "compile": "tsc",
+        "compile:watch": "tsc --watch",
+        "postinstall": "tsc",
+        "dev": "nodemon",
+        "format": "prettier --write ./src",
+        "lint": "eslint ./src --ext .vue,.js,.ts",
+        "lint-fix": "eslint --fix ./src --ext .vue,.js,.ts"
+    },
+    "author": "Nits László",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "mongoose": "^8.12.1",
+        "morgan": "^1.10.0",
+        "tslib": "^2.8.1"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.17",
+        "@types/express": "^5.0.0",
+        "@types/morgan": "^1.9.9",
+        "@types/node": "^22.13.10",
+        "@typescript-eslint/eslint-plugin": "^8.26.1",
+        "@typescript-eslint/parser": "^8.26.1",
+        "eslint": "^9.22.0",
+        "eslint-config-prettier": "^10.1.1",
+        "eslint-plugin-prettier": "^5.2.3",
+        "nodemon": "^3.1.9",
+        "prettier": "^3.5.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.2"
+    }
+}
