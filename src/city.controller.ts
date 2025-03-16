@@ -8,7 +8,8 @@ export class cityController implements IController {
     private cities = cityModel;
 
     constructor() {
-        this.router.get("/api/get-all-cities", this.getAllCities);
+        this.router.get("/api/cities", this.getAllCities);
+        this.router.get("/api/city/:id", this.getCityById);
     }
 
     
@@ -17,9 +18,25 @@ export class cityController implements IController {
             const data: ICity[] = await this.cities.find();
             if (data) {
                 res.send(data);
+            } else {
+                res.status(404).send({ message: "Cities not found" });
             }
         } catch (error) {
             res.status(400).send({ message: error.message });
         }
     };
+
+    private getCityById = async (req: Request, res: Response) => {
+            try {
+                const id = req.params.id;
+                const document: ICity = await this.cities.findById(id);
+                if (document) {
+                    res.send(document);
+                } else {
+                    res.status(404).send({ message: "City not found" });
+                }
+            } catch (error) {
+                res.status(400).send({ message: error.message });
+            }
+        };
 }
