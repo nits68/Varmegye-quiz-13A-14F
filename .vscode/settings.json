@@ -23,7 +23,7 @@
     "files.eol": "\r\n",
     "files.exclude": {
         "**/.git": true,
-        "**/.gitignore": true,
+        "**/.gitignore": false,
         "**/.vscode": false,
         "**/tsconfig.json": false,
         "**/tslint.json": false,
