@@ -20,7 +20,7 @@ export class cityController implements IController {
             if (error instanceof Error) {
                 res.status(400).send({ message: error.message });
             } else {
-                res.status(400).send({ message: "An unknown error occurred!" });
+                res.status(400).send({ message: "An unknown error occurred" });
             }
         }
     };

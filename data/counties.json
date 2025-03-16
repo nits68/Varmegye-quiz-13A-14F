@@ -65,7 +65,7 @@
         "region": "???",
         "population": 391.184,
         "area": 4261.74,
-        "neighboring_counties": [1, 10.3],
+        "neighboring_counties": [1, 10, 3],
         "neighboring_countries": [3, 4],
         "largest_cities": [3, 23, 45]
     },

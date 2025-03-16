@@ -15,6 +15,7 @@
         "isolatedModules": true,
         "target": "es2022",
         "strict": true,
+        "sourceMap": true,
         "skipLibCheck": true,
         "baseUrl": ".",
         "outDir": "./dist",
