@@ -8,18 +8,34 @@ export class countyController implements IController {
     private counties = countyModel;
 
     constructor() {
-        this.router.get("/api/get-all-counties", this.getAllCounties);
+        this.router.get("/api/counties", this.getAllCounties);
+        this.router.get("/api/county/:id", this.getCountyById);
     }
 
-    // Many-side handlers *********************************************
     private getAllCounties = async (req: Request, res: Response) => {
         try {
             const data: ICounty[] = await this.counties.find();
             if (data) {
                 res.send(data);
+            } else {
+                res.status(404).send({ message: "Counties not found" });
             }
         } catch (error) {
             res.status(400).send({ message: error.message });
         }
     };
+
+    private getCountyById = async (req: Request, res: Response) => {
+            try {
+                const id = req.params.id;
+                const document = await this.counties.findById(id);
+                if (document) {
+                    res.send(document);
+                } else {
+                    res.status(404).send({ message: "County not found" });
+                }
+            } catch (error) {
+                res.status(400).send({ message: error.message });
+            }
+        };
 }
