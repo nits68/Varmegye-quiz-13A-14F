@@ -1,46 +1,60 @@
 {
-    "name": "jedlik-express-mongoose-ts-backend-template",
+    "name": "backend_tsx",
     "version": "1.0.0",
-    "description": "Jedlik project template for backend exam witw 2 collections",
-    "main": "src/server.ts",
-    "repository": {
-        "private": false,
-        "type": "git",
-        "url": "https://github.com/nits68/"
-    },
+    "description": "",
+    "type": "module",
+    "main": "index.js",
     "scripts": {
-        "start": "node ./dist/server.js",
-        "compile": "tsc",
-        "compile:watch": "tsc --watch",
-        "postinstall": "tsc",
-        "dev": "nodemon",
-        "format": "prettier --write ./src",
-        "lint": "eslint ./src --ext .vue,.js,.ts",
-        "lint-fix": "eslint --fix ./src --ext .vue,.js,.ts"
+        "dev": "tsx --watch --env-file=.env --inspect src/server.ts",
+        "start": "node --env-file .env dist/server.js",
+        "build": "tsc",
+        "type-check": "tsc --noEmit",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "format": "prettier --write .",
+        "format:check": "prettier --check .",
+        "kill": "npx kill-port 5000",
+        "test": "vitest",
+        "test:run": "vitest --run",
+        "test:ui": "vitest --ui",
+        "coverage": "vitest run --coverage"
     },
-    "author": "Nits László",
+    "keywords": [],
+    "author": "",
+    "imports": {
+        "#*": "./src/*"
+    },
     "license": "MIT",
     "dependencies": {
         "cors": "^2.8.5",
-        "dotenv": "^16.4.7",
         "express": "^4.21.2",
         "mongoose": "^8.12.1",
-        "morgan": "^1.10.0",
-        "tslib": "^2.8.1"
+        "morgan": "^1.10.0"
     },
     "devDependencies": {
+        "@eslint/js": "^9.22.0",
         "@types/cors": "^2.8.17",
         "@types/express": "^5.0.0",
+        "@types/mongoose": "^5.11.96",
         "@types/morgan": "^1.9.9",
         "@types/node": "^22.13.10",
-        "@typescript-eslint/eslint-plugin": "^8.26.1",
-        "@typescript-eslint/parser": "^8.26.1",
+        "@vitest/coverage-v8": "^3.0.8",
+        "@vitest/eslint-plugin": "^1.1.37",
         "eslint": "^9.22.0",
-        "eslint-config-prettier": "^10.1.1",
-        "eslint-plugin-prettier": "^5.2.3",
-        "nodemon": "^3.1.9",
+        "eslint-plugin-perfectionist": "^4.10.1",
+        "kill-port": "^2.0.1",
         "prettier": "^3.5.3",
-        "ts-node": "^10.9.2",
-        "typescript": "^5.8.2"
+        "tsx": "^4.19.3",
+        "typescript": "^5.8.2",
+        "typescript-eslint": "^8.26.1",
+        "vitest": "^3.0.8"
+    },
+    "prettier": {
+        "semi": true,
+        "trailingComma": "all",
+        "printWidth": 160,
+        "tabWidth": 4,
+        "endOfLine": "auto",
+        "arrowParens": "avoid"
     }
 }

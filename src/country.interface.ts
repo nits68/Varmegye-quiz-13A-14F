@@ -1,10 +1,8 @@
-import { Schema } from "mongoose";
-
 export interface ICountry {
     _id: number;
-    name: string;
-    flag_url_small: string;
-    flag_url_big: string;
-    population: number;
     area: number;
+    flag_url_big: string;
+    flag_url_small: string;
+    name: string;
+    population: number;
 }

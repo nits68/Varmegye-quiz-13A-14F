@@ -1,30 +1,29 @@
-import { ICity } from "city.interface";
-
-import { Schema, model } from "mongoose";
+import { ICity } from "#city.interface.js";
+import { model, Schema } from "mongoose";
 
 const citySchema = new Schema<ICity>(
     {
         _id: Number,
-        name: {
-            type: String,
+        area: {
             required: true,
-            unique: true,
-            maxLength: 40,
-        },
-        population: {
             type: Number,
-            required: true,
         },
         coat_of_arms_url: {
+            required: true,
             type: String,
-            required: true,
         },
-        area: {
-            type: Number,
+        name: {
+            maxLength: 40,
             required: true,
+            type: String,
+            unique: true,
+        },
+        population: {
+            required: true,
+            type: Number,
         },
     },
-    { versionKey: false, id: false, toJSON: { virtuals: true }, toObject: { virtuals: true } },
+    { id: false, toJSON: { virtuals: true }, toObject: { virtuals: true }, versionKey: false },
 );
 
 // Mongoose also supports populating virtuals.
