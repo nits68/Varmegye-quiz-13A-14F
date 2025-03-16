@@ -1,5 +1,12 @@
 [
   {
+    "_id": 1,
+    "name": "Budapest (JAVÍTANI 'A' csoportnak)",
+    "population": 158797,
+    "coat_of_arms_url": "https://nits68.github.io/static/quiz/szeged_cimer.jpg",
+    "area": 158.797
+  },
+  {
     "_id": 3,
     "name": "Szeged",
     "population": 158797,
