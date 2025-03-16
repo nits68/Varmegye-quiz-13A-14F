@@ -14,13 +14,17 @@ export class countyController implements IController {
 
     private getAllCounties = async (req: Request, res: Response) => {
         try {
-            const data: ICounty[] = await this.counties.find();
+            const data: ICounty[] = await this.counties
+                .find()
+                .populate("neighboringCounties", { largest_cities: 0, neighboring_counties: 0, neighboring_countries: 0 })
+                .populate("neighboringCountries")
+                .populate("largestCities");
             res.send(data);
         } catch (error: unknown) {
             if (error instanceof Error) {
                 res.status(400).send({ message: error.message });
             } else {
-                res.status(400).send({ message: "An unknown error occurred!" });
+                res.status(400).send({ message: "An unknown error occurred!!" });
             }
         }
     };
@@ -28,7 +32,11 @@ export class countyController implements IController {
     private getCountyById = async (req: Request, res: Response) => {
         try {
             const id = req.params.id;
-            const document: ICounty | null = await this.counties.findById(id);
+            const document: ICounty | null = await this.counties
+                .findById(id)
+                .populate("neighboringCounties", { largest_cities: 0, neighboring_counties: 0, neighboring_countries: 0 })
+                .populate("neighboringCountries")
+                .populate("largestCities");
             if (document) {
                 res.send(document);
             } else {

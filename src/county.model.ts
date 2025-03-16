@@ -63,12 +63,27 @@ const countySchema = new Schema<ICounty>(
 // You can give the "virtualPop" any name you want:
 
 // Access oneSide from manySide:
-// manySideSchema.virtual("virtualPop", {
-//     ref: "oneSideID",
-//     localField: "FK_neve",
-//     foreignField: "_id", //ref_Field
-//     justOne: true,
-// });
+countySchema.virtual("largestCities", {
+    foreignField: "_id", //ref_Field
+    justOne: false,
+    localField: "largest_cities",
+    ref: "cityModelID",
+});
+
+countySchema.virtual("neighboringCounties", {
+    foreignField: "_id", //ref_Field
+    justOne: false,
+    localField: "neighboring_counties",
+    ref: "countyModelID",
+});
+
+countySchema.virtual("neighboringCountries", {
+    foreignField: "_id", //ref_Field
+    justOne: false,
+    localField: "neighboring_countries",
+    ref: "countryModelID",
+});
+
 // Use virtual for populate in manySide controller:
 // const data = await this.many.find({},"-_id").populate("virtualPop", "-_id -prepTime");
 
