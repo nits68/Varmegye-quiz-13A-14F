@@ -1,0 +1,12 @@
+# Countries
+# Get all countries
+GET http://localhost:5000/api/get-all-countries
+
+### Cities
+# Get all cities
+GET http://localhost:5000/api/get-all-cities
+
+### Counties
+# Get all counties
+GET http://localhost:5000/api/get-all-counties
+

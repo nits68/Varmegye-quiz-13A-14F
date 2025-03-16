@@ -3,5 +3,6 @@
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "tomoki1207.pdf",
+        "humao.rest-client",
     ]
 }
