@@ -1,4 +1,4 @@
-import { ICounty } from "#county.interface.js";
+import { ICountyFull } from "#county.interface.js";
 import { countyModel } from "#county.model.js";
 import { IController } from "#interfaces.js";
 import { Request, Response, Router } from "express";
@@ -14,7 +14,7 @@ export class countyController implements IController {
 
     private getAllCounties = async (req: Request, res: Response) => {
         try {
-            const data: ICounty[] = await this.counties
+            const data: ICountyFull[] = await this.counties
                 .find()
                 .populate("neighboringCounties", { largest_cities: 0, neighboring_counties: 0, neighboring_countries: 0 })
                 .populate("neighboringCountries")
@@ -32,7 +32,7 @@ export class countyController implements IController {
     private getCountyById = async (req: Request, res: Response) => {
         try {
             const id = req.params.id;
-            const document: ICounty | null = await this.counties
+            const document: ICountyFull | null = await this.counties
                 .findById(id)
                 .populate("neighboringCounties", { largest_cities: 0, neighboring_counties: 0, neighboring_countries: 0 })
                 .populate("neighboringCountries")
