@@ -99,10 +99,10 @@
     },
     {
         "_id": 16,
-        "name": "Veszprém (JAVÍTANI)",
-        "population": 59397,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/kaposvar_cimer.jpg",
-        "area": 113.3
+        "name": "Veszprém",
+        "population": 55910,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/veszprem_cimer.jpg",
+        "area": 126.9
     },
     {
         "_id": 17,
@@ -204,10 +204,10 @@
     },
     {
         "_id": 35,
-        "name": "Pápa (JAVÍTANI)",
-        "population": 28974,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/kiskunfelegyhaza_cimer.jpg",
-        "area": 256.3
+        "name": "Pápa",
+        "population": 29019,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/papa_cimer.jpg",
+        "area": 91.62
     },
     {
         "_id": 36,
@@ -239,10 +239,10 @@
     },
     {
         "_id": 41,
-        "name": "Ajka (JAVÍTANI)",
-        "population": 27645,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/gyongyos_cimer.jpg",
-        "area": 55.31
+        "name": "Ajka",
+        "population": 26671,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/ajka_cimer.jpg",
+        "area": 95.05
     },
     {
         "_id": 43,
