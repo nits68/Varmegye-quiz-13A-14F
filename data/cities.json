@@ -11,7 +11,7 @@
         "name": "Szeged",
         "population": 158797,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/szeged_cimer.jpg",
-        "area": 158.797
+        "area": 280.8
     },
     {
         "_id": 4,
@@ -74,7 +74,7 @@
         "name": "Tatabánya",
         "population": 65830,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/tatabanya_cimer.jpg",
-        "area": 65.83
+        "area": 91.42
     },
     {
         "_id": 14,
@@ -102,7 +102,7 @@
         "name": "Zalaegerszeg",
         "population": 54428,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/zalaegerszeg_cimer.jpg",
-        "area": 54.428
+        "area": 99.98
     },
     {
         "_id": 19,
@@ -123,7 +123,7 @@
         "name": "Nagykanizsa",
         "population": 43228,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/nagykanizsa_cimer.jpg",
-        "area": 43.228
+        "area": 148.4
     },
     {
         "_id": 22,
@@ -137,7 +137,7 @@
         "name": "Hódmezővásárhely",
         "population": 41634,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/hodmezovasarhely_cimer.jpg",
-        "area": 41.634
+        "area": 488
     },
     {
         "_id": 24,
@@ -179,7 +179,7 @@
         "name": "Szekszárd",
         "population": 29889,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/szekszard_cimer.jpg",
-        "area": 29.889
+        "area": 96.28
     },
     {
         "_id": 33,
@@ -200,7 +200,7 @@
         "name": "Esztergom",
         "population": 28693,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/esztergom_cimer.jpg",
-        "area": 28.693
+        "area": 100.4
     },
     {
         "_id": 39,
@@ -228,7 +228,7 @@
         "name": "Orosháza",
         "population": 25206,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/oroshaza_cimer.jpg",
-        "area": 202.22
+        "area": 353.2
     },
     {
         "_id": 45,
@@ -256,6 +256,6 @@
         "name": "Tata",
         "population": 23456,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/tata_cimer.jpg",
-        "area": 23.456
+        "area": 78.13
     }
 ]
