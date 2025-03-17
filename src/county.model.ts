@@ -1,7 +1,7 @@
-import { ICounty } from "#county.interface.js";
+import { ICountyFull } from "#county.interface.js";
 import { model, Schema } from "mongoose";
 
-const countySchema = new Schema<ICounty>(
+const countySchema = new Schema<ICountyFull>(
     {
         _id: Number,
         area: {

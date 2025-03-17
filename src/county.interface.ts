@@ -13,22 +13,10 @@ export interface ICounty {
     seat_id: number;
 }
 
-export interface ICountyFull {
-    _id: number;
-    area: number;
-    country_part: string;
-    flag_url_big: string;
-    flag_url_small: string;
-    largest_cities: number[];
+export interface ICountyFull extends ICounty {
     largestCities: ILargestCity[];
-    name: string;
-    neighboring_counties: number[];
-    neighboring_countries: number[];
     neighboringCounties: INeighboringCounty[];
     neighboringCountries: INeighboringCountry[];
-    population: number;
-    region: string;
-    seat_id: number;
 }
 
 export interface ILargestCity {
