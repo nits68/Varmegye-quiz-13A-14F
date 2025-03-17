@@ -2,9 +2,9 @@
     {
         "_id": 1,
         "name": "Budapest (JAVÍTANI 'A' csoportnak)",
-        "population": 1752286,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/szeged_cimer.jpg",
-        "area": 525
+        "population": 1685342,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/budapest_cimer.jpg",
+        "area": 525.6
     },
     {
         "_id": 3,
@@ -58,9 +58,9 @@
     {
         "_id": 11,
         "name": "Érd (JAVÍTANI)",
-        "population": 77757,
+        "population": 71253,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/szombathely_cimer.jpg",
-        "area": 97.5
+        "area": 63.3
     },
     {
         "_id": 12,
@@ -114,9 +114,9 @@
     {
         "_id": 20,
         "name": "Dunakeszi (JAVÍTANI)",
-        "population": 49499,
+        "population": 43858,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/eger_cimer.jpg",
-        "area": 92.24
+        "area": 31.1
     },
     {
         "_id": 21,
