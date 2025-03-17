@@ -2,9 +2,9 @@
     {
         "_id": 1,
         "name": "Budapest (JAVÍTANI 'A' csoportnak)",
-        "population": 158797,
+        "population": 1752286,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/szeged_cimer.jpg",
-        "area": 158.797
+        "area": 525
     },
     {
         "_id": 3,
@@ -30,7 +30,7 @@
     {
         "_id": 6,
         "name": "Győr (JAVÍTANI)",
-        "population": 139099,
+        "population": 127599,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/pecs_cimer.jpg",
         "area": 113.3
     },
@@ -44,9 +44,9 @@
     {
         "_id": 8,
         "name": "Kecskemét (JAVÍTANI)",
-        "population": 116282,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/nyiregyhaza_cimer.jpg",
-        "area": 274
+        "population": 108120,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/kecskemet_cimer.jpg",
+        "area": 322
     },
     {
         "_id": 10,
@@ -156,9 +156,9 @@
     {
         "_id": 28,
         "name": "Baja (JAVÍTANI)",
-        "population": 41634,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/hodmezovasarhely_cimer.jpg",
-        "area": 41.634
+        "population": 33140,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/baja_cimer.jpg",
+        "area": 177.9
     },
     {
         "_id": 30,
@@ -191,9 +191,9 @@
     {
         "_id": 36,
         "name": "Kiskunfélegyháza (JAVÍTANI)",
-        "population": 29374,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/hajduboszormeny_cimer.jpg",
-        "area": 290
+        "population": 28974,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/kiskunfelegyhaza_cimer.jpg",
+        "area": 256.3
     },
     {
         "_id": 37,
