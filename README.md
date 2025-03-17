@@ -14,4 +14,16 @@ Vármegye játék backend - 13A
 https://www.youtube.com/watch?v=RcxvrhQKv8I
 
 ## Rest client tests endpoints
+```
 src/rest-tests.http
+```
+## Stop (Kill) tasks in TERMAL window
+```
+Ctrl-C
+```
+(Don't use Kill Terminal Icon, because node.exe task keep running)
+
+## Kill node.exe tasks 
+```
+npm run kill
+```
