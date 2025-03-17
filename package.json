@@ -2,7 +2,7 @@
     "name": "backend_tsx",
     "version": "1.0.0",
     "description": "",
-    "type": "module",
+    "type": "commonjs",
     "main": "index.js",
     "scripts": {
         "dev": "tsx --watch --env-file=.env --inspect src/server.ts",
@@ -13,7 +13,7 @@
         "lint:fix": "eslint --fix .",
         "format": "prettier --write .",
         "format:check": "prettier --check .",
-        "kill": "npx kill-port 5000 && npx kill-port 9229",
+        "kill": "taskkill /f /im node.exe",
         "test": "vitest",
         "test:run": "vitest --run",
         "test:ui": "vitest --ui",
@@ -27,9 +27,11 @@
     "license": "MIT",
     "dependencies": {
         "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
         "express": "^4.21.2",
         "mongoose": "^8.12.1",
-        "morgan": "^1.10.0"
+        "morgan": "^1.10.0",
+        "tslib": "^2.8.1"
     },
     "devDependencies": {
         "@eslint/js": "^9.22.0",
@@ -42,7 +44,6 @@
         "@vitest/eslint-plugin": "^1.1.37",
         "eslint": "^9.22.0",
         "eslint-plugin-perfectionist": "^4.10.1",
-        "kill-port": "^2.0.1",
         "prettier": "^3.5.3",
         "tsx": "^4.19.3",
         "typescript": "^5.8.2",
