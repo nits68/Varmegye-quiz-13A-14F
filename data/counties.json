@@ -10,7 +10,7 @@
         "population": 503825,
         "area": 8443,
         "neighboring_counties": [6, 13, 16, 2, 5, 10, 14],
-        "neighboring_countries": [4,2],
+        "neighboring_countries": [4, 2],
         "largest_cities": [8, 28, 36]
     },
     {
@@ -33,10 +33,10 @@
         "seat_id": 17,
         "flag_url_small": "https://nits68.github.io/static/quiz/bekes_kicsi.jpg",
         "flag_url_big": "https://nits68.github.io/static/quiz/bekes_nagy.jpg",
-         "country_part": "AF",
-         "region": "DA",
-         "population": 334264,
-         "area": 5630
+        "country_part": "AF",
+        "region": "DA",
+        "population": 334264,
+        "area": 5630,
         "neighboring_counties": [8, 10, 5],
         "neighboring_countries": [3],
         "largest_cities": [17, 39, 44]
@@ -146,7 +146,7 @@
         "flag_url_small": "https://nits68.github.io/static/quiz/komarom-esztergom_kicsi.jpg",
         "flag_url_big": "https://nits68.github.io/static/quiz/komarom-esztergom_nagy.jpg",
         "country_part": "KDT",
-         "population": 300.631,
+        "population": 300.631,
         "area": 264,
         "neighboring_counties": [7, 18, 6, 13],
         "neighboring_countries": [5],
@@ -229,9 +229,9 @@
         "flag_url_small": "https://nits68.github.io/static/quiz/vas_kicsi.jpg",
         "flag_url_big": "https://nits68.github.io/static/quiz/vas_nagy.jpg",
         "country_part": "DT",
-         "region": "NyD",
-         "population": 253551,
-         "area": 3336,
+        "region": "NyD",
+        "population": 253551,
+        "area": 3336,
         "neighboring_counties": [7, 18, 19],
         "neighboring_countries": [1, 6],
         "largest_cities": [10]
