@@ -7,6 +7,13 @@
         "area": 525
     },
     {
+        "_id": 2,
+        "name": "Debrecen (JAVÍTANI)",
+        "population": 1752286,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/szeged_cimer.jpg",
+        "area": 525
+    },
+    {
         "_id": 3,
         "name": "Szeged",
         "population": 158797,
@@ -86,6 +93,13 @@
     {
         "_id": 15,
         "name": "Kaposvár",
+        "population": 59397,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/kaposvar_cimer.jpg",
+        "area": 113.3
+    },
+    {
+        "_id": 16,
+        "name": "Veszprém (JAVÍTANI)",
         "population": 59397,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/kaposvar_cimer.jpg",
         "area": 113.3
@@ -189,6 +203,13 @@
         "area": 290
     },
     {
+        "_id": 35,
+        "name": "Pápa (JAVÍTANI)",
+        "population": 28974,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/kiskunfelegyhaza_cimer.jpg",
+        "area": 256.3
+    },
+    {
         "_id": 36,
         "name": "Kiskunfélegyháza (JAVÍTANI)",
         "population": 28974,
@@ -212,6 +233,13 @@
     {
         "_id": 40,
         "name": "Gyöngyös",
+        "population": 27645,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/gyongyos_cimer.jpg",
+        "area": 55.31
+    },
+    {
+        "_id": 41,
+        "name": "Ajka (JAVÍTANI)",
         "population": 27645,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/gyongyos_cimer.jpg",
         "area": 55.31
