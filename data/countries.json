@@ -20,16 +20,16 @@
         "name": "Románia",
         "flag_url_small": "https://nits68.github.io/static/quiz/romania_kicsi.jpg",
         "flag_url_big": "https://nits68.github.io/static/quiz/romania_nagy.jpg",
-        "population": 19060000,
-        "area": 238397
+        "population": 19679306,
+        "area": 238391
     },
     {
         "_id": 4,
         "name": "Szerbia",
         "flag_url_small": "https://nits68.github.io/static/quiz/szerbia_kicsi.jpg",
         "flag_url_big": "https://nits68.github.io/static/quiz/szerbia_nagy.jpg",
-        "population": 6623000,
-        "area": 77474
+        "population": 7058322,
+        "area": 88361
     },
     {
         "_id": 5,
