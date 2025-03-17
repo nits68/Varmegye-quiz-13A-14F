@@ -1,7 +1,7 @@
 [
     {
         "_id": 1,
-        "name": "Bács-Kiskun (JAVÍTANI)",
+        "name": "Bács-Kiskun ",
         "seat_id": 8,
         "flag_url_small": "https://nits68.github.io/static/quiz/bacs-kiskun_kicsi.jpg",
         "flag_url_big": "https://nits68.github.io/static/quiz/bacs-kiskun_nagy.jpg",
@@ -85,7 +85,7 @@
     },
     {
         "_id": 7,
-        "name": "Győr-Moson-Sopron (JAVÍTANI)",
+        "name": "Győr-Moson-Sopron ",
         "seat_id": 5,
         "flag_url_small": "https://nits68.github.io/static/quiz/baranya_kicsi.jpg",
         "flag_url_big": "https://nits68.github.io/static/quiz/baranya_nagy.jpg",
@@ -169,7 +169,7 @@
     },
     {
         "_id": 13,
-        "name": "Pest (JAVÍTANI)",
+        "name": "Pest ",
         "seat_id": 1,
         "flag_url_small": "https://nits68.github.io/static/quiz/pest_kicsi.jpg",
         "flag_url_big": "https://nits68.github.io/static/quiz/pest_nagy.jpg",
