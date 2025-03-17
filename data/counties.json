@@ -93,7 +93,7 @@
         "region": "NyD",
         "population": 467144,
         "area": 4208,
-        "neighboring_counties": [11, 17, 19],
+        "neighboring_counties": [11, 17, 18],
         "neighboring_countries": [1, 5],
         "largest_cities": [6, 14, 27]
     },
