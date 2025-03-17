@@ -2,9 +2,9 @@
     {
         "_id": 1,
         "name": "Budapest (JAVÍTANI 'A' csoportnak)",
-        "population": 1752286,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/szeged_cimer.jpg",
-        "area": 525
+        "population": 1685342,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/budapest_cimer.jpg",
+        "area": 525.6
     },
     {
         "_id": 3,
@@ -29,7 +29,7 @@
     },
     {
         "_id": 6,
-        "name": "Győr",
+        "name": "Győr ",
         "population": 127599,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/Gyor_cimer.jpg",
         "area": 113.3
@@ -43,7 +43,7 @@
     },
     {
         "_id": 8,
-        "name": "Kecskemét (JAVÍTANI)",
+        "name": "Kecskemét ",
         "population": 108120,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/kecskemet_cimer.jpg",
         "area": 322
@@ -57,10 +57,10 @@
     },
     {
         "_id": 11,
-        "name": "Érd (JAVÍTANI)",
-        "population": 77757,
+        "name": "Érd ",
+        "population": 71253,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/szombathely_cimer.jpg",
-        "area": 97.5
+        "area": 63.3
     },
     {
         "_id": 12,
@@ -113,10 +113,10 @@
     },
     {
         "_id": 20,
-        "name": "Dunakeszi (JAVÍTANI)",
-        "population": 49499,
+        "name": "Dunakeszi",
+        "population": 43858,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/eger_cimer.jpg",
-        "area": 92.24
+        "area": 31.1
     },
     {
         "_id": 21,
@@ -141,7 +141,7 @@
     },
     {
         "_id": 24,
-        "name": "Szigetszentmiklós (JAVÍTANI)",
+        "name": "Szigetszentmiklós ",
         "population": 41634,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/hodmezovasarhely_cimer.jpg",
         "area": 41.634
@@ -155,7 +155,7 @@
     },
     {
         "_id": 28,
-        "name": "Baja (JAVÍTANI)",
+        "name": "Baja ",
         "population": 33140,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/baja_cimer.jpg",
         "area": 177.9
@@ -190,7 +190,7 @@
     },
     {
         "_id": 36,
-        "name": "Kiskunfélegyháza (JAVÍTANI)",
+        "name": "Kiskunfélegyháza ",
         "population": 28974,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/kiskunfelegyhaza_cimer.jpg",
         "area": 256.3
