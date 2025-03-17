@@ -1,17 +1,17 @@
 [
     {
         "_id": 1,
-        "name": "Budapest (JAVÍTANI 'A' csoportnak)",
+        "name": "Budapest",
         "population": 1685342,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/budapest_cimer.jpg",
         "area": 525.6
     },
     {
         "_id": 2,
-        "name": "Debrecen (JAVÍTANI)",
-        "population": 1752286,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/szeged_cimer.jpg",
-        "area": 525
+        "name": "Debrecen",
+        "population": 199858,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/debrecen_cimer.jpg",
+        "area": 461.666
     },
     {
         "_id": 3,
@@ -38,7 +38,7 @@
         "_id": 6,
         "name": "Győr ",
         "population": 127599,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/Gyor_cimer.jpg",
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/gyor_cimer.jpg",
         "area": 113.3
     },
     {
@@ -66,7 +66,7 @@
         "_id": 11,
         "name": "Érd ",
         "population": 71253,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/szombathely_cimer.jpg",
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/erd_cimer.jpg",
         "area": 63.3
     },
     {
@@ -87,7 +87,7 @@
         "_id": 14,
         "name": "Sopron",
         "population": 60334,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/Sopron_cimer.jpg",
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/sopron_cimer.jpg",
         "area": 168.3
     },
     {
@@ -129,7 +129,7 @@
         "_id": 20,
         "name": "Dunakeszi",
         "population": 43858,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/eger_cimer.jpg",
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/dunakeszi_cimer.jpg",
         "area": 31.1
     },
     {
@@ -157,14 +157,14 @@
         "_id": 24,
         "name": "Szigetszentmiklós ",
         "population": 41634,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/hodmezovasarhely_cimer.jpg",
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/szigetszentmiklos_cimer.jpg",
         "area": 41.634
     },
     {
         "_id": 27,
         "name": "Mosonmagyaróvár",
         "population": 33935,
-        "coat_of_arms_url": "https://nits68.github.io/static/quiz/Mosonmagyarovar_cimer.jpg",
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/mosonmagyarovar_cimer.jpg",
         "area": 74.8
     },
     {
