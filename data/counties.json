@@ -85,17 +85,17 @@
     },
     {
         "_id": 7,
-        "name": "Győr-Moson-Sopron (JAVÍTANI)",
-        "seat_id": 5,
-        "flag_url_small": "https://nits68.github.io/static/quiz/baranya_kicsi.jpg",
-        "flag_url_big": "https://nits68.github.io/static/quiz/baranya_nagy.jpg",
-        "country_part": "DDT",
-        "region": "???",
-        "population": 354022,
-        "area": 4308.69,
-        "neighboring_counties": [1, 14, 16],
-        "neighboring_countries": [20],
-        "largest_cities": [5]
+        "name": "Győr-Moson-Sopron",
+        "seat_id": 6,
+        "flag_url_small": "https://nits68.github.io/static/quiz/Gyor-Moson-Sopron-megye_kicsi.jpg",
+        "flag_url_big": "https://nits68.github.io/static/quiz/Gyor-Moson-Sopron-megye_nagy.jpg",
+        "country_part": "DT",
+        "region": "NyD",
+        "population": 467144,
+        "area": 4208,
+        "neighboring_counties": [11, 17, 19],
+        "neighboring_countries": [1, 5],
+        "largest_cities": [6, 14, 27]
     },
     {
         "_id": 8,
