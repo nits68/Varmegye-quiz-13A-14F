@@ -1,5 +1,5 @@
 import App from "../app";
-import { quizA1Controller } from "./quizA1.controller";
+import { quizA1Controller } from "./groupA.controller";
 import { config } from "dotenv";
 
 config();
