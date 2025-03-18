@@ -4,13 +4,11 @@ GET http://localhost:5000/api/countries
 ### Get all country by id
 GET http://localhost:5000/api/country/1
 
-
 ### Get all cities
 GET http://localhost:5000/api/cities
 
 ### Get all city by id
 GET http://localhost:5000/api/city/1
-
 
 ### Get all counties
 GET http://localhost:5000/api/counties
