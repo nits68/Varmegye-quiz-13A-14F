@@ -9,8 +9,8 @@
         "region": "DA",
         "population": 503825,
         "area": 8443,
-        "neighboring_counties": [6, 13, 16, 2, 5, 10, 14],
-        "neighboring_countries": [4, 2],
+        "neighboring_counties": [6, 13, 16, 2, 5, 10],
+        "neighboring_countries": [4],
         "largest_cities": [8, 28, 36]
     },
     {
@@ -24,7 +24,7 @@
         "population": 360704,
         "area": 4430,
         "neighboring_counties": [1, 14, 16],
-        "neighboring_countries": [20],
+        "neighboring_countries": [2],
         "largest_cities": [5]
     },
     {
@@ -79,9 +79,9 @@
         "region": "KD",
         "population": 417651,
         "area": 4358,
-        "neighboring_counties": [2, 3],
+        "neighboring_counties": [11, 13, 1, 16, 14, 18],
         "neighboring_countries": [],
-        "largest_cities": [1, 3]
+        "largest_cities": [9, 22]
     },
     {
         "_id": 7,
