@@ -1,0 +1,11 @@
+### Test the F1 quiz endpoint
+GET http://localhost:5001/api/quiz/F1
+
+### Test F1 quiz response structure
+# This should return a JSON with 'question', 'answers' (array of 4 city names), and 'solution' fields
+# The question should be: "A felsorolt városok közül melyik nem tartozik egy vármegyébe?"
+# The solution should be "Budapest"
+GET http://localhost:5001/api/quiz/F1
+
+### Test with a different port if you're using environment variables
+GET http://localhost:5000/api/quiz/F1
