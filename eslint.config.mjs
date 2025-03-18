@@ -1,13 +1,13 @@
 // @ts-check
 
 import eslint from "@eslint/js";
-import tseslint from "typescript-eslint";
-import perfectionist from "eslint-plugin-perfectionist";
 import vitest from "@vitest/eslint-plugin";
+import perfectionist from "eslint-plugin-perfectionist";
+import tseslint from "typescript-eslint";
 
 export default tseslint.config(
     {
-        ignores: ["**/*.js", "**/*.mjs"],
+        ignores: ["**/*.js"],
     },
     eslint.configs.recommended,
     tseslint.configs.strictTypeChecked,
@@ -19,6 +19,9 @@ export default tseslint.config(
                 tsconfigRootDir: import.meta.dirname,
             },
         },
+        rules: {
+          "@typescript-eslint/restrict-template-expressions": "off"
+        }
     },
     perfectionist.configs["recommended-natural"],
     {
