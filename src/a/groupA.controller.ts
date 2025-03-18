@@ -3,7 +3,7 @@ import { countyModel } from "../county.model";
 import { cityModel } from "../city.model";
 import { Request, Response, Router } from "express";
 
-export class quizA1Controller implements IController {
+export class groupAcontroller implements IController {
     public router = Router();
     private counties = countyModel;
     private cities = cityModel;
