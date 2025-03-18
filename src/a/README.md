@@ -1,1 +1,0 @@
-# A-csoport TypeScript források
