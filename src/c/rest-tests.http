@@ -1,0 +1,2 @@
+### Get quiz C1
+GET http://localhost:5000/api/quizC1
