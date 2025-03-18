@@ -7,7 +7,7 @@ import vitest from "@vitest/eslint-plugin";
 
 export default tseslint.config(
     {
-        ignores: ["**/*.js"],
+        ignores: ["**/*.js", "**/*.mjs"],
     },
     eslint.configs.recommended,
     tseslint.configs.strictTypeChecked,
