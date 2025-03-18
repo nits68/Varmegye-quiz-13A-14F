@@ -9,7 +9,7 @@
         "region": "DA",
         "population": 503825,
         "area": 8443,
-        "neighboring_counties": [6, 13, 16, 2, 5, 10, 14],
+        "neighboring_counties": [6, 13, 16, 2, 5, 10],
         "neighboring_countries": [4, 2],
         "largest_cities": [8, 28, 36]
     },
@@ -79,7 +79,7 @@
         "region": "KD",
         "population": 417651,
         "area": 4358,
-        "neighboring_counties": [2, 3],
+        "neighboring_counties": [11, 13, 1, 16, 14, 18],
         "neighboring_countries": [],
         "largest_cities": [1, 3]
     },
