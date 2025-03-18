@@ -72,7 +72,7 @@
     {
         "_id": 6,
         "name": "Fejér",
-        "seat_id": 3,
+        "seat_id": 9,
         "flag_url_small": "https://nits68.github.io/static/quiz/fejer_kicsi.jpg",
         "flag_url_big": "https://nits68.github.io/static/quiz/fejer_nagy.jpg",
         "country_part": "DT",

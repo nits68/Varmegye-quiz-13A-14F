@@ -50,10 +50,17 @@
     },
     {
         "_id": 8,
-        "name": "Kecskemét ",
+        "name": "Kecskemét",
         "population": 108120,
         "coat_of_arms_url": "https://nits68.github.io/static/quiz/kecskemet_cimer.jpg",
         "area": 322
+    },
+    {
+        "_id": 9,
+        "name": "Székesfehérvár",
+        "population": 95045,
+        "coat_of_arms_url": "https://nits68.github.io/static/quiz/szekesfehervar_cimer.jpg",
+        "area": 170.89
     },
     {
         "_id": 10,

@@ -1,13 +1,13 @@
-import { countyModel } from '#county.model.js';
-import { IController, IResponse } from '#interfaces.js';
-import { ICounty } from '#county.interface.js';
+import { ICounty } from "#county.interface.js";
+import { countyModel } from "#county.model.js";
+import { IController, IResponse } from "#interfaces.js";
 import { Request, Response, Router } from "express";
 
-export class groupBController implements IController{
+export class groupBController implements IController {
     public router = Router();
     private counties = countyModel;
 
-    constructor(){
+    constructor() {
         this.router.get("/api/quizB1", this.getGroupBQuiz1);
     }
 
@@ -19,19 +19,18 @@ export class groupBController implements IController{
             const correctCounty = data[Math.floor(Math.random() * data.length)];
             const wrongAnswers = data
                 .filter(county => county.name !== correctCounty.name && county.region !== correctCounty.region)
-                .reduce((uniqueRegions, county) => {
+                .reduce<string[]>((uniqueRegions, county) => {
                     if (!uniqueRegions.some(region => region === county.region)) {
                         uniqueRegions.push(county.region);
                     }
                     return uniqueRegions;
-                }, [] as string[])
-                .slice(0, 3)
+                }, [])
+                .slice(0, 3);
 
             const question: IResponse = {
+                answers: [...wrongAnswers.map(county => county), correctCounty.region].sort(() => 0.5 - Math.random()),
                 question: `${correctCounty.name} vármegye melyik régióban található?`,
-                answers: [...wrongAnswers.map(county => county), correctCounty.region]
-                    .sort(() => 0.5 - Math.random()),
-                solution: correctCounty.region
+                solution: correctCounty.region,
             };
 
             res.status(200).send(question);

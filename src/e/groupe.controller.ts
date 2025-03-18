@@ -22,20 +22,16 @@ export class GroupEController implements IController {
                 .populate("largestCities");
             const rightAnswer: ICountyFull = document[Math.floor(Math.random() * document.length)];
             const randomCity: string = rightAnswer.largestCities[Math.floor(Math.random() * rightAnswer.largestCities.length)].name;
-            if (rightAnswer) {
-                let answers: string[] = [rightAnswer.name];
-                while (answers.length < 4) {
-                    const answerCounty: ICounty | null = document[Math.floor(Math.random() * document.length)];
-                    if (answerCounty) {
-                        if (!answers.includes(answerCounty.name)) answers.push(answerCounty.name);
-                    }
-                }
-                res.send(<IResponse>{
-                    answers: answers,
-                    question: `Melyik vármegyében található ${randomCity}?`,
-                    solution: rightAnswer.name,
-                });
+            const answers: string[] = [rightAnswer.name];
+            while (answers.length < 4) {
+                const answerCounty: ICounty | null = document[Math.floor(Math.random() * document.length)];
+                if (!answers.includes(answerCounty.name)) answers.push(answerCounty.name);
             }
+            res.send({
+                answers: answers,
+                question: `Melyik vármegyében található ${randomCity}?`,
+                solution: rightAnswer.name,
+            } as IResponse);
         } catch (error: unknown) {
             if (error instanceof Error) {
                 res.status(400).send({ message: error.message });
