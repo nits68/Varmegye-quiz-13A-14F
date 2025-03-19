@@ -7,6 +7,7 @@ import { countryController } from "#country.controller.js";
 import { countyController } from "#county.controller.js";
 import { groupDController } from "#d/groupD.controller.js";
 import { GroupEController } from "#e/groupe.controller.js";
+import { groupGcontroller } from "#g/groupG.controller.js";
 
 new App([
     new countryController(),
@@ -17,4 +18,5 @@ new App([
     new groupDController(),
     new GroupEController(),
     new groupAcontroller(),
+    new groupGcontroller(),
 ]);

@@ -1,1 +1,3 @@
 ### Endpoints
+
+GET http://localhost:5000/api/quizG1/county
