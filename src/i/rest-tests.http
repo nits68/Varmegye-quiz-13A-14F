@@ -1,3 +1,9 @@
 ### Endpoints
 
+###Q1
 GET http://localhost:5000/api/quizI
+
+
+###Q2
+
+GET http://localhost:5000/api/nonNeighboringCounties
