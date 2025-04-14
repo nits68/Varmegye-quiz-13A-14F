@@ -35,13 +35,15 @@ export default class App {
         mongoose.set("strictQuery", true); // for disable Deprecation Warning
         const { MONGO_DB, MONGO_URI } = process.env;
 
-        mongoose.connect(MONGO_URI ?? "http://localhost:27017", { dbName: MONGO_DB ?? "dbs" }).catch((error: unknown) => {
-            if (error instanceof Error) {
-                console.log(`Mongoose error on connection! Message: ${error.message}`);
-            } else {
-                console.log("Mongoose error on connection!");
-            }
-        });
+        mongoose
+            .connect(MONGO_URI ?? "http://localhost:27017", { dbName: MONGO_DB ?? "dbs" })
+            .catch((error: unknown) => {
+                if (error instanceof Error) {
+                    console.log(`Mongoose error on connection! Message: ${error.message}`);
+                } else {
+                    console.log("Mongoose error on connection!");
+                }
+            });
         // mongoose.connect("mongodb://127.0.0.1:27017/AdatbázisNeve").catch(() => console.log("Unable to connect to the server. Please start MongoDB."));
 
         mongoose.connection.on("error", (error: unknown) => {
