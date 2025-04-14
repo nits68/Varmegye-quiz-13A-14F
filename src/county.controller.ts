@@ -16,7 +16,11 @@ export class countyController implements IController {
         try {
             const data: ICountyFull[] = await this.counties
                 .find()
-                .populate("neighboringCounties", { largest_cities: 0, neighboring_counties: 0, neighboring_countries: 0 })
+                .populate("neighboringCounties", {
+                    largest_cities: 0,
+                    neighboring_counties: 0,
+                    neighboring_countries: 0,
+                })
                 .populate("neighboringCountries")
                 .populate("largestCities");
             res.send(data);
@@ -34,7 +38,11 @@ export class countyController implements IController {
             const id = req.params.id;
             const document: ICountyFull | null = await this.counties
                 .findById(id)
-                .populate("neighboringCounties", { largest_cities: 0, neighboring_counties: 0, neighboring_countries: 0 })
+                .populate("neighboringCounties", {
+                    largest_cities: 0,
+                    neighboring_counties: 0,
+                    neighboring_countries: 0,
+                })
                 .populate("neighboringCountries")
                 .populate("largestCities");
             if (document) {
