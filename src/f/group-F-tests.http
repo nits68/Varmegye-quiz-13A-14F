@@ -1,0 +1,5 @@
+### Quiz F1 - Melyik város nem tartozik a többihez képest ugyanabba a vármegyébe?
+GET http://localhost:5000/api/quizF1
+
+### Quiz F2 - Melyik vármegyének van a legkevesebb vármegye szomszédja?
+GET http://localhost:5000/api/quizF2
