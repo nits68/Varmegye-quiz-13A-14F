@@ -2,7 +2,6 @@ import { cityModel } from "#city.model.js";
 import { ICountyFull } from "#county.interface.js";
 import { countyModel } from "#county.model.js";
 import { IController, IResponse } from "#interfaces.js";
-import { log } from "console";
 import { Request, Response, Router } from "express";
 
 interface IParts {
