@@ -156,7 +156,7 @@
     {
         "_id": 12,
         "name": "Nógrád",
-        "seat_id": 2,
+        "seat_id": 30,
         "flag_url_small": "https://nits68.github.io/static/quiz/nograd_kicsi.jpg",
         "flag_url_big": "https://nits68.github.io/static/quiz/nograd_nagy.jpg",
         "country_part": "AF",
@@ -165,7 +165,7 @@
         "area": 2544,
         "neighboring_counties": [1, 3],
         "neighboring_countries": [2],
-        "largest_cities": [2]
+        "largest_cities": [30]
     },
     {
         "_id": 13,
