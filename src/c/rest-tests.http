@@ -1,6 +1,8 @@
 ### Get quiz C1
+### Hány vármegye van a "xyz" ország-részben?
 GET http://localhost:5000/api/quizC1
 
 
 ### Get quiz C2
+### Hány százaláka a székhely lakossága "xyz" vármegye népességének?
 GET http://localhost:5000/api/quizC2
