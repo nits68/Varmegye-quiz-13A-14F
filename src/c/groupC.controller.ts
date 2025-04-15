@@ -17,7 +17,7 @@ export class groupCController implements IController {
 
     constructor() {
         this.router.get("/api/quizC1", this.getQuizQuestion);
-        this.router.get("/api/quizC2", this.getQuizQuestionPersentage);
+        this.router.get("/api/quizC2", this.getQuizQuestion_PopPercentage);
     }
 
     private async getCounties() {
@@ -40,7 +40,6 @@ export class groupCController implements IController {
         const selected = data[num];
 
         while ([...new Set(data.map(x => x.db.toString()))].length < 4) {
-            console.log(data);
             const newData: IParts = {
                 _id: "null",
                 db: Math.floor(Math.random() * 10),
@@ -48,8 +47,6 @@ export class groupCController implements IController {
 
             data.push(newData);
         }
-
-        console.log(morphMap);
 
         const answer: IResponse = {
             answers: [...new Set(data.map(x => x.db.toString()))],
@@ -73,9 +70,9 @@ export class groupCController implements IController {
             }
         }
     };
-    private getQuizQuestionPersentage = async (req: Request, res: Response) => {
+    private getQuizQuestion_PopPercentage = async (req: Request, res: Response) => {
         try {
-            const data: IResponse = await this.getPupulationPersentage();
+            const data: IResponse = await this.getPopulationPercentage();
 
             res.send(data);
         } catch (error: unknown) {
@@ -87,7 +84,7 @@ export class groupCController implements IController {
         }
     };
 
-    private async getPupulationPersentage() {
+    private async getPopulationPercentage() {
         const counties: ICountyFull[] = await this.countries.find({ name: { $ne: "Pest" } });
 
         const randomCounty = counties[Math.floor(Math.random() * counties.length)];
@@ -96,9 +93,9 @@ export class groupCController implements IController {
         if (!city || !city.population) {
             throw new Error("City population data is missing");
         }
-        const persentage = ((city.population / randomCounty.population) * 100).toFixed(0);
+        const percentage = ((city.population / randomCounty.population) * 100).toFixed(0);
 
-        const answers = [persentage.toString()];
+        const answers = [percentage.toString()];
 
         while (answers.length < 4) {
             const newAnswer = Math.floor(Math.random() * 101).toString();
@@ -110,7 +107,7 @@ export class groupCController implements IController {
         const answer: IResponse = {
             answers: answers.sort(),
             question: `Hány százaléka a székhely lakosságának ${randomCounty.name} vármegye lakossága?`,
-            solution: persentage.toString(),
+            solution: percentage.toString(),
         };
 
         return answer;
