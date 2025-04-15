@@ -1,1 +1,9 @@
-### Endpoints
+# Q3 - Pest megyén kívüli N-edik legnépesebb város (Group H)
+# @prompt N Melyik N. várost keresed Pest megyén kívül?
+GET http://localhost:5000/api/quizH1?n={{N}}
+
+### Q4 - Pest megyén kívüli 5. legnépesebb város (Group H) - (Ez csak egy konkrét példa Q3-ra)
+GET http://localhost:5000/api/quizH1?n=5
+
+### Q5 - Legnagyobb területű város a 4 opció közül (Group H)
+GET http://localhost:5000/api/quizH2
