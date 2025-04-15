@@ -1,5 +1,5 @@
 import { cityModel } from "#city.model.js";
-import { ICounty, ICountyFull } from "#county.interface.js";
+import { ICountyFull } from "#county.interface.js";
 import { countyModel } from "#county.model.js";
 import { IController, IResponse } from "#interfaces.js";
 import { log } from "console";
@@ -93,9 +93,12 @@ export class groupCController implements IController {
 
         const randomCounty = counties[Math.floor(Math.random() * counties.length)];
 
-        log(await this.cities.findOne({ _id: randomCounty.seat_id }));
-        log(randomCounty);
-        const persentage = (((await this.cities.findOne({ _id: randomCounty.seat_id }))?.population! / randomCounty.population) * 100).toFixed(0);
+        const city = await this.cities.findOne({ _id: randomCounty.seat_id });
+        log(city);
+        if (!city || !city.population) {
+            throw new Error("City population data is missing");
+        }
+        const persentage = ((city.population / randomCounty.population) * 100).toFixed(0);
 
         const answers = [persentage.toString()];
 
