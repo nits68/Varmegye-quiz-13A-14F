@@ -94,7 +94,6 @@ export class groupCController implements IController {
         const randomCounty = counties[Math.floor(Math.random() * counties.length)];
 
         const city = await this.cities.findOne({ _id: randomCounty.seat_id });
-        log(city);
         if (!city || !city.population) {
             throw new Error("City population data is missing");
         }
