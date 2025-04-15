@@ -1,2 +1,6 @@
 ### Get quiz C1
 GET http://localhost:5000/api/quizC1
+
+
+### Get quiz C2
+GET http://localhost:5000/api/quizC2
