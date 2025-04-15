@@ -1,5 +1,5 @@
 # Varmegye-quiz-13A
-Vármegye játék backend - 13A
+Vármegye játék backend - 13A - 14F
 
 ## Copy the .env file from the following folder to project root
 "Classroom\#13A-NL Node.js altantárgy (2024 2025)\Varmegye_Quiz-13A"
