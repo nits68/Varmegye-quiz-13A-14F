@@ -1,4 +1,5 @@
 ### Get quiz D1
-# GET http://localhost:5000/api/quizD1
+GET http://localhost:5000/api/quizD1
 
+### Get quiz D2
 GET http://localhost:5000/api/quizD2

@@ -55,7 +55,7 @@ export class groupDController implements IController {
 
     private getquizD2 = async (req: Request, res: Response) => {
         try {
-            const counties: ICountyFull[] = await this.counties.find({}, "-_id").lean();
+            const counties: ICountyFull[] = await this.counties.find({ "_id": { $ne: 13 } }, "-_id").lean();
 
             const populatedCounties = counties.filter(c => typeof c.seat_id === "number");
 
